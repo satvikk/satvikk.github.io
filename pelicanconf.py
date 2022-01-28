@@ -31,6 +31,7 @@ SOCIAL = (('You can add links in your config file', '#'),
 
 DEFAULT_PAGINATION = True
 DEFAULT_ORPHANS = 0
+DISPLAY_PAGES_ON_MENU = True
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
