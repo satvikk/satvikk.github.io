@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Satvik Kishore'
 SITENAME = 'Satvik Kishore'
-SITEURL = ''
+SITEURL = 'satvikk.github.io'
 
 PATH = 'content'
 
@@ -29,7 +29,8 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
-DEFAULT_PAGINATION = False
+DEFAULT_PAGINATION = True
+DEFAULT_ORPHANS = 0
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
