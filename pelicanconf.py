@@ -1,6 +1,6 @@
 AUTHOR = 'Satvik Kishore'
 SITENAME = 'Satvik Kishore'
-SITEURL = 'https://satvikk@github.io'
+SITEURL = 'https://satvikk.github.io/'
 
 PATH = 'content'
 
