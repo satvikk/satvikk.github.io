@@ -1,0 +1,4 @@
+baseURL = 'https://satvikk.github.io/'
+languageCode = 'en-us'
+title = 'Satvik Kishore'
+theme = "ananke"
