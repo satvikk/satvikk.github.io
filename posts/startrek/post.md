@@ -36,7 +36,7 @@ The main idea behind our statistical methodology is that we create a proxy scree
 ## Results 📊
 #### Influence of Characters  
 
-![plot](screentime_coef.png?raw=true)
+![plot](startrek/screentime_coef.png?raw=true)
 - The figure illustrates the estimated average change in episode rating when a character's screentime is increased by 1 percentage point. This increase is at the expense of the screentime of "other" characters i.e. any character not included in the main character list. Corresponding 95% confidence intervals are also illustrated.
 - Most characters were not observed to have a significant impact on episode ratings.
 - Screentimes of Sisko from Star Trek: Deep Space 9 and Paris from Star Trek: Voyager have the strongest positive impact on episode ratings.
@@ -44,7 +44,7 @@ The main idea behind our statistical methodology is that we create a proxy scree
 
 #### Differences across Shows and Seasons  
 
-![Alt text](show_season_dotplot.png?raw=true)
+![Alt text](startrek/show_season_dotplot.png?raw=true)
 - We observed significant difference in quality across Show:Seasons. Season 1 of The Next Generations was the worst while Season 6 of The Next Generations was the best
  
 ####  
@@ -54,10 +54,9 @@ We found no evidence for difference in quality across directors. This is likely 
 ## Conclusions  
 We observe that audiences appear to show a clear preference for some characters over the others. We can also extend this analysis to other TV shows, one that I have in mind is the popular sitcom Friends, which I feel could be even better suited to this type of analysis. 
 
-### Limitaions  
+### Limitations  
 There are a few limitations to this study that need to be taken into consideration.
 - While the hierarchical structure of the model helps in taking care of dependence in residuals within seasons, it is still possible that a few of the multi-part episodes have non independent residuals. This is a violation of the assumptions of linear regression.
-- The screentime is calculated as proportion of words spoken by characters. The source data is not fully clean as a few whitespace issues may have fused words together and reduced counts. Incidence of this issue is not very common and is completely at random, and thus should only have a minor influence on the results.
 - IMDb calculates ratings as a weighted mean from individual user ratings, with the weight calculation algorithm being a secret. While the weighting scheme is in place to prevent manipulation, it leaves an uncertainty as to exactly what our target variable is.
 - Characters change and evolve through a show’s natural progression, and thus their effect on episode ratings is likely to be variable between seasons. This effect can be modeled using a random slopes model however the multifold increase in number of variables makes the modeling difficult. Thus we are forced to assume that each character has a uniform linear effect on episode ratings.
 - We did not perform post-hoc analysis on our regression estimates. Due to the large number of statistical tests done, we are likelier to commit Type I errors and misrepresent the confidence bands. 
