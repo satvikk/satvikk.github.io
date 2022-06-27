@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>VARIABLE::TITLE</title>
+		<title>AWS Cloud Tweet Generator</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="../../assets/css/main.css" />
@@ -94,11 +94,11 @@
 							<article class="post">
 								<header>
 									<div class="title">
-										<h2><a href="#">VARIABLE::TITLE</a></h2>
+										<h2><a href="#">AWS Cloud Tweet Generator</a></h2>
 										
 									</div>
 									<div class="meta">
-										<time class="published" datetime="VARIABLE::DATENUMBER">VARIABLE::DATETEXT</time>
+										<time class="published" datetime="2021-12-11">VARIABLE::DATETEXT</time>
 									</div>
 								</header>
 								<span class="image featured"><img src="banner" alt="" /></span>
