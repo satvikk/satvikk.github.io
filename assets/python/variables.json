@@ -10,6 +10,14 @@
                 "DATENUMBER": "2021-12-11",
                 "DATETEXT": "December 11, 2021"
             }
+    },
+    "main": {
+        "navbar_length": 5,
+        "navbar": {
+            "ABOUT": "about.html",
+            "RESUME": "resume.html",
+            "CONTACT": "contact.html"
+        }
     }
 
 }

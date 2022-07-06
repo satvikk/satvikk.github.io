@@ -17,7 +17,7 @@ def make_single_post(template_file, variables, name):
 
 
 def make_all_posts():
-    variables_all = json.load(open("posts/variables.json"))["posts"]
+    variables_all = json.load(open("assets/python/variables.json"))["posts"]
     template_file = "posts/template.html"
     for post in variables_all:
         make_single_post(
