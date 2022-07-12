@@ -11,15 +11,33 @@ Satvik Kishore
 
 Education
 ---------
+<p style="text-align:left;">
+    <b>Duke University</b>
+    <span style="float:right;">
+        Durham, NC
+    </span>
+</p>
+<p style="text-align:left;">
+    <b>Masters in Interdisciplinary Data Science. GPA: 4.0</b>
+    <span style="float:right;">
+        2021-2023
+    </span>
+</p>
+Relevant Courses: Statistics, Machine Learning, Cloud Engineering, Natural Language Processing, Computer Vision and Medical Imaging, Causal Inference
 
-:   **Duke University**   <div style="text-align: right"> Durham, NC</div>  
-    Masters in Interdisciplinary Data Science. GPA: 4.0  <div style="text-align: right"> 2021-2023 *(expected)*</div>   
-    * Relevant Courses: Statistics, Machine Learning, Cloud Engineering, Natural Language Processing, Computer Vision and Medical Imaging, Causal Inference
-
-2013-2017
-:   **Indian Institute of technology Madras**;    <div style="text-align: right"> Chennai, India</div>   
-    B.Tech., Materials Engineering <div style="text-align: right"> 2013-2017</div>   
-    *Minor: Industrial Engineering*
+<p style="text-align:left;">
+    <b>Indian Institute of technology Madras</b>
+    <span style="float:right;">
+        Chennai, India
+    </span>
+</p>
+<p style="text-align:left;">
+    <b>B.Tech., Materials Engineering</b>
+    <span style="float:right;">
+        2013-2017
+    </span>
+</p>
+Minor: Industrial Engineering
 
 Experience
 ----------
