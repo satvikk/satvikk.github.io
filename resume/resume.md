@@ -1,115 +1,52 @@
-Satvik Kishore
-============
+# Satvik Kishore
 
-<!-- ----
+## Education
 
->  In this style, the resume starts with a blockquote, where
->  you can briefly list your specialties, or include a salient
->  quote. Ending a line with a backslash forces a line break.
-
----- -->
-
-Education
----------
-<p style="text-align:left;">
+<p style="text-align:left; margin-bottom:0;">
     <b>Duke University</b>
-    <span style="float:right;">
+    <span style="float:right; margin-bottom:0;">
         Durham, NC
     </span>
 </p>
-<p style="text-align:left;">
+<p style="text-align:left;margin:0; padding-top:0;">
     <b>Masters in Interdisciplinary Data Science. GPA: 4.0</b>
-    <span style="float:right;">
-        2021-2023
+    <span style="float:right; margin:0; padding-top:0;">
+        2021–2023
     </span>
 </p>
 Relevant Courses: Statistics, Machine Learning, Cloud Engineering, Natural Language Processing, Computer Vision and Medical Imaging, Causal Inference
 
-<p style="text-align:left;">
-    <b>Indian Institute of technology Madras</b>
-    <span style="float:right;">
+<p style="text-align:left; margin-bottom:0;">
+    <b>Indian Institute of Technology Madras</b>
+    <span style="float:right; margin-bottom:0;">
         Chennai, India
     </span>
 </p>
-<p style="text-align:left;">
+<p style="text-align:left;margin:0; padding-top:0;">
     <b>B.Tech., Materials Engineering</b>
-    <span style="float:right;">
-        2013-2017
+    <span style="float:right; margin-bottom:0;">
+        2013–2017
     </span>
 </p>
-Minor: Industrial Engineering
 
-Experience
-----------
+Minor: Industrial Engineering  
 
-**Your Most Recent Work Experience:**
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
 
-Short text containing the type of work done, results obtained,
-lessons learned and other remarks. Can also include lists and
-links:
+## Publications
 
-* First item
+- Kishore, S., Thomas, T., Sachdev, H., Kurpad, A. V., & Webb, P. (2022) Modeling the potential impacts of improved monthly income on child stunting in India: a subnational geospatial perspective. *BMJ Open*, 12:e055098. https://doi.org/10.1136/bmjopen-2021-055098
+- Shivakumar, N., Kashyap, S., Kishore, S., Thomas, T., Varkey, A., Devi, S., Preston, T., Jahoor, F., Sheshshayee, M. S., & Kurpad, A. V. (2019). Protein-quality evaluation of complementary foods in Indian children. The *American journal of clinical nutrition*, 109(5), 1319–1327. https://doi.org/10.1093/ajcn/nqy265
 
-* Item with [link](http://www.example.com). Links will work both in
-  the html and pdf versions.
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
 
-**That Other Job You Had**
+## Experience
+st johns
 
-Also with a short description.
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
 
-Technical Experience
---------------------
+## Projects
 
 My Cool Side Project
 :   For items which don't have a clear time ordering, a definition
     list can be used to have named items.
-
-    * These items can also contain lists, but you need to mind the
-      indentation levels in the markdown source.
-    * Second item.
-
-Open Source
-:   List open source contributions here, perhaps placing emphasis on
-    the project names, for example the **Linux Kernel**, where you
-    implemented multithreading over a long weekend, or **node.js**
-    (with [link](http://nodejs.org)) which was actually totally
-    your idea...
-
-Programming Languages
-:   **first-lang:** Here, we have an itemization, where we only want
-    to add descriptions to the first few items, but still want to
-    mention some others together at the end. A format that works well
-    here is a description list where the first few items have their
-    first word emphasized, and the last item contains the final few
-    emphasized terms. Notice the reasonably nice page break in the pdf
-    version, which wouldn't happen if we generated the pdf via html.
-
-:   **second-lang:** Description of your experience with second-lang,
-    perhaps again including a [link] [ref], this time placing the url
-    reference elsewhere in the document to reduce clutter (see source
-    file). 
-
-:   **obscure-but-impressive-lang:** We both know this one's pushing
-    it.
-
-:   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
-
-[ref]: https://github.com/githubuser/superlongprojectname
-
-Extra Section, Call it Whatever You Want
-----------------------------------------
-
-* Human Languages:
-
-     * English (native speaker)
-     * ???
-     * This is what a nested list looks like.
-
-* Random tidbit
-
-* Other sort of impressive-sounding thing you did
-
-----
-
-> <email@example.com> • +00 (0)00 000 0000 • XX years old\
-> address - Mytown, Mycountry
