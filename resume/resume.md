@@ -46,7 +46,7 @@ Minor: Industrial Engineering
 <p style="text-align:left;margin:0; padding-top:0;">
     Interpretable AI for diagnosing breast cancer
     <span style="float:right; margin-bottom:0;">
-        <i>ongoing</i>
+        <i>Summer 2022–Present</i>
     </span>
 </p>
 
@@ -66,16 +66,63 @@ Minor: Industrial Engineering
 ## Professional Experience
 
 
-<h4 style="text-align:left;margin:0; padding-top:0;">
-    Data Scientist, St. John's Research Institute
+<p style="text-align:left;margin:0; padding-top:0;">
+    <b>Data Scientist, St. John's Research Institute</b>
     <span style="float:right; margin-bottom:0;">
         <i>2017–2021</i>
-    </span>
-</h4>
+    </pspan>
+</p>
+
+
 
 
 ## Projects
 
-My Cool Side Project
-:   For items which don't have a clear time ordering, a definition
-    list can be used to have named items.
+<p style="text-align:left;margin:0; padding-top:0;">
+    Brain Tumor Segmentation
+    <span style="float:right; margin-bottom:0;">
+        <i>Spring 2022</i>
+    </span>
+</p>
+
+- Built machine Learning Models to segment brain tumour images and detect regions where tumor exists
+
+<p style="text-align:left;margin:0; padding-top:0;">
+    Optimizing CT scan slice count through Lesion detection using YOLO
+    <span style="float:right; margin-bottom:0;">
+        <i>Spring 2022</i>
+    </span>
+</p>
+
+- Simulated CT scans and optimzed number of CT slices needed to detect lesions
+
+<p style="text-align:left;margin:0; padding-top:0;">
+    Does Airbnb listing’s annual revenue vary by with host status?
+    <span style="float:right; margin-bottom:0;">
+        <i>Spring 2022</i>
+    </span>
+</p>
+
+- causal inference from airbnb
+
+<p style="text-align:left;margin:0; padding-top:0;">
+    AWS Cloud Tweet Generator
+    <span style="float:right; margin-bottom:0;">
+        <i>Fall 2021</i>
+    </span>
+</p>
+
+- An AWS powered tool that generates new relevant tweets everyday
+
+<p style="text-align:left;margin:0; padding-top:0;">
+    Star Trek: Analysis of Episodes
+    <span style="float:right; margin-bottom:0;">
+        <i>Fall 2021</i>
+    </span>
+</p>
+
+- A statistical analysis of four star trek TV shows to evaluate character perception.
+
+### Certifications
+
+- AWS MLCertification
