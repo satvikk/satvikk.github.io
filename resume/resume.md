@@ -14,7 +14,7 @@
         2021–2023
     </span>
 </p>
-Relevant Courses: Statistics, Machine Learning, Cloud Engineering, Natural Language Processing, Computer Vision and Medical Imaging, Causal Inference
+Relevant Courses: Statistics, Machine Learning, Cloud Engineering, Natural Language Processing, Computer Vision and Medical Imaging, Causal Inference <br>
 
 <p style="text-align:left; margin-bottom:0;">
     <b>Indian Institute of Technology Madras</b>
@@ -31,19 +31,19 @@ Relevant Courses: Statistics, Machine Learning, Cloud Engineering, Natural Langu
 
 Minor: Industrial Engineering  
 
-<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+<!-- <hr style="height:2px;border-width:0;color:gray;background-color:gray"> -->
 
 ## Publications
 
 - Kishore, S., Thomas, T., Sachdev, H., Kurpad, A. V., & Webb, P. (2022) Modeling the potential impacts of improved monthly income on child stunting in India: a subnational geospatial perspective. *BMJ Open*, 12:e055098. https://doi.org/10.1136/bmjopen-2021-055098
 - Shivakumar, N., Kashyap, S., Kishore, S., Thomas, T., Varkey, A., Devi, S., Preston, T., Jahoor, F., Sheshshayee, M. S., & Kurpad, A. V. (2019). Protein-quality evaluation of complementary foods in Indian children. The *American journal of clinical nutrition*, 109(5), 1319–1327. https://doi.org/10.1093/ajcn/nqy265
 
-<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+<!-- <hr style="height:2px;border-width:0;color:gray;background-color:gray"> -->
 
 ## Experience
 st johns
 
-<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+<!-- <hr style="height:2px;border-width:0;color:gray;background-color:gray"> -->
 
 ## Projects
 
