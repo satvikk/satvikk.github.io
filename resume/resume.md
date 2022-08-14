@@ -9,7 +9,7 @@
     </span>
 </p>
 <p style="text-align:left;margin:0; padding-top:0;">
-    Masters in Interdisciplinary Data Science. GPA: 4.0
+    Masters in Interdisciplinary Data Science
     <span style="float:right; margin:0; padding-top:0;">
         <i>2021–2023</i>
     </span>
@@ -24,15 +24,24 @@ Relevant Courses: Statistics, Machine Learning, Cloud Engineering, Natural Langu
     </span>
 </p>
 <p style="text-align:left;margin:0; padding-top:0;">
-    B.Tech., Materials Engineering
+    B.Tech., Materials Engineering; Minor in Industrial Engineering 
     <span style="float:right; margin-bottom:0;">
         <i>2013–2017</i>
     </span>
 </p>
 
-Minor: Industrial Engineering  
+Relevant Courses: Probability, Decision Modeling, Pattern Recognition, Operations Research, Computational Engineering
 
-<!-- <hr style="height:2px;border-width:0;color:gray;background-color:gray"> -->
+
+### Technical Skills:
+
+- <b>Python:</b> PyTorch, Tensorflow (Keras), Pandas, Scikit-Learn, Flask
+- <b>R:</b> data.table, ggplot
+- git, docker
+
+### Certifications
+
+- AWS Machine Learning Specialty
 
 ## Publications
 
@@ -125,13 +134,3 @@ Minor: Industrial Engineering
 
 <!-- <hr style="height:1px;border-width:0;color:gray;background-color:gray"> -->
 
-## Technical Skills:
-
-- <b>Python:</b> PyTorch, Tensorflow (Keras), Pandas, Scikit-Learn, Flask
-- <b>R:</b> data.table, ggplot
-- git, docker
-
-
-## Certifications
-
-- AWS Machine Learning Specialty
