@@ -123,6 +123,11 @@ Minor: Industrial Engineering
 
 - A statistical analysis of four star trek TV shows to evaluate character perception.
 
+### Technical Skills:
+
+- <b>Python:</b> PyTorch, Tensorflow (Keras), Pandas, Scikit-Learn, Flask
+- <b>R:</b> data.table, ggplot
+- git, docker
 ### Certifications
 
-- AWS MLCertification
+- AWS Machine Learning Specialty
