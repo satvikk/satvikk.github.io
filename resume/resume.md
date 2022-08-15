@@ -32,9 +32,9 @@ Relevant Courses: Statistics, Machine Learning, Cloud Engineering, Natural Langu
 
 Relevant Courses: Probability, Decision Modeling, Pattern Recognition, Operations Research, Computational Engineering
 
-<p style="text-align:left;margin:0; padding-top:0;border-top-width:1px;border-top-style:solid;border-top-color:rgb(234, 236, 239)">
-<b>Technical Skills:</b>
-</p>
+<h3 style="text-align:left;margin:0; padding-top:0;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:rgb(234, 236, 239)">
+Technical Skills:
+</h3>
 
 - <b>Python:</b> PyTorch, Tensorflow (Keras), Pandas, Scikit-Learn, Flask
 - <b>R:</b> data.table, ggplot
