@@ -31,7 +31,7 @@ Relevant Courses: Statistics, Machine Learning, Cloud Engineering, Natural Langu
 </p>
 Relevant Courses: Probability, Decision Modeling, Pattern Recognition, Operations Research, Computational Engineering.  
 
-<h3 style="text-align:left; border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:rgb(234, 236, 239)">
+<h3 style="text-align:left; border-bottom-width:1px; border-bottom-style:solid; border-bottom-color:rgb(234, 236, 239)">
 Technical Skills:
 </h3>
 
