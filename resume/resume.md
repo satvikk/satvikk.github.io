@@ -14,7 +14,7 @@
         <i>2021–2023</i>
     </span>
 </p>
-Relevant Courses: Statistics, Machine Learning, Cloud Engineering, Natural Language Processing, Computer Vision and Medical Imaging, Causal Inference
+Relevant Courses: Statistics, Machine Learning, Cloud Engineering, Natural Language Processing, Computer Vision and Medical Imaging, Causal Inference.
 
 <p style="text-align:left; margin-bottom:0;">
     <br>  
@@ -29,10 +29,9 @@ Relevant Courses: Statistics, Machine Learning, Cloud Engineering, Natural Langu
         <i>2013–2017</i>
     </span>
 </p>
-Relevant Courses: Probability, Decision Modeling, Pattern Recognition, Operations Research, Computational Engineering
+Relevant Courses: Probability, Decision Modeling, Pattern Recognition, Operations Research, Computational Engineering.  
 
-
-<h3 style="text-align:left;margin:0; padding-top:0;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:rgb(234, 236, 239)">
+<h3 style="text-align:left; border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:rgb(234, 236, 239)">
 Technical Skills:
 </h3>
 
