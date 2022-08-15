@@ -32,8 +32,7 @@ Relevant Courses: Statistics, Machine Learning, Cloud Engineering, Natural Langu
 
 Relevant Courses: Probability, Decision Modeling, Pattern Recognition, Operations Research, Computational Engineering
 
-
-<p style="text-align:left;margin:0; padding-top:0;">
+<p style="text-align:left;margin:0; padding-top:0;border-top-width:1px;border-top-style:solid;border-top-color:rgb(234, 236, 239)">
 <b>Technical Skills:</b>
 </p>
 
@@ -131,5 +130,4 @@ Relevant Courses: Probability, Decision Modeling, Pattern Recognition, Operation
 
 - A statistical analysis of four star trek TV shows to evaluate character perception.
 
-<!-- <hr style="height:1px;border-width:0;color:gray;background-color:gray"> -->
 
