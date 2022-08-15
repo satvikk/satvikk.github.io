@@ -29,8 +29,8 @@ Relevant Courses: Statistics, Machine Learning, Cloud Engineering, Natural Langu
         <i>2013–2017</i>
     </span>
 </p>
-
 Relevant Courses: Probability, Decision Modeling, Pattern Recognition, Operations Research, Computational Engineering
+
 
 <h3 style="text-align:left;margin:0; padding-top:0;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:rgb(234, 236, 239)">
 Technical Skills:
@@ -38,7 +38,7 @@ Technical Skills:
 
 - <b>Python:</b> PyTorch, Tensorflow (Keras), Pandas, Scikit-Learn, Flask
 - <b>R:</b> data.table, ggplot
-- git, docker
+- SQL, Git, Docker, Amazon Web Services
 - <b>Certifications: </b> AWS Machine Learning Specialty
 
 
@@ -72,16 +72,31 @@ Technical Skills:
 
 ## Professional Experience
 
-
 <p style="text-align:left;margin:0; padding-top:0;">
-    <b>Data Scientist, St. John's Research Institute</b>
+    <b>St. John's Research Institute</b>
     <span style="float:right; margin-bottom:0;">
-        <i>2017–2021</i>
-    </pspan>
+       <i>2017–2021</i>
+    </span>
 </p>
+<p style="text-align:left;margin:0; padding-top:0;">
+    <b> Data Scientist</b>, Data Science & Public Health Research
+    <span style="float:right; margin-bottom:0;">
+        Bengaluru, India
+    </span>
+</p>
+My role at St. John's included ideating research proposals, performing analyses, and publishing and presenting results from different projects.
 
-
-
+- Modeling potential impacts of improved monthly income on child stunting in India — a geospatial perspective
+    - Raised $100,00 awarded by the Gates Foundation and the Government of India as part of The Grand Challenges - India.
+    - The aim was to help policymakers identify optimal strategies to reduce child undernutrition (stunting) in India.
+    - Trained and applied Gaussian Process Regressions Models to calculate small-area estimates of stunting prevalence and potential benefits.
+    - Tools used: Python, PyTorch, GPyTorch
+- Protein-quality evaluation of complementary foods in Indian children
+    - Tested statistical differences in digestibility across multiple amino acids in a clinical research experiment.
+    - Estimated digestibility corrected Amino Acid intake scores for states of India. Tested for associations with child growth failure.
+- Nutrition Value chain Data Repository
+    - Collated, preprocessed, and set up a centralized database of about 100+ harmonized datasets across the nutrition value chain (crop production to health outcomes through distribution, purchase, consumption, and absorption.
+    - Built a dashboard for easy exploration and extraction of the data for the Institute.
 
 ## Projects
 
@@ -92,7 +107,8 @@ Technical Skills:
     </span>
 </p>
 
-- Built machine Learning Models to segment brain tumour images and detect regions where tumor exists
+- Built Image Segmentation Neural Network Models (U-net) that scan 3-dimensional brain MRI images and identiy regions of brain associated with a tumor.
+- The model can be used to aid neurosurgeons to precisely locate damaged regions in the brain.
 
 <p style="text-align:left;margin:0; padding-top:0;">
     Optimizing CT scan slice count through Lesion detection using YOLO
@@ -101,7 +117,8 @@ Technical Skills:
     </span>
 </p>
 
-- Simulated CT scans and optimzed number of CT slices needed to detect lesions
+- Simulated CT imaging on images of lesions to create images that would have been obtained from lower resolution CT Scanning.
+- Optimzed number of CT slices required during imaging that allow acceptable object detection capabilities on Object-Detection Neural Network Models while minimizing costs.
 
 <p style="text-align:left;margin:0; padding-top:0;">
     Does Airbnb listing’s annual revenue vary by with host status?
@@ -110,7 +127,8 @@ Technical Skills:
     </span>
 </p>
 
-- causal inference from airbnb
+- Analyzed AirBnb data from American cities to determine if superhosts are able to generate more revenue than regular hosts.
+- Used Causal Inference principles to balance data and determined that superhosts are indeed more profitable.
 
 <p style="text-align:left;margin:0; padding-top:0;">
     AWS Cloud Tweet Generator
@@ -119,7 +137,9 @@ Technical Skills:
     </span>
 </p>
 
-- An AWS powered tool that generates new relevant tweets everyday
+- Built and deployed a end-to-end cloud-based data pipeline that generates tweets everyday relevant to current trending topics.
+- The pipeline collects and cleans tweets everyday for training data and then re-trains and deploys a generative LDA model.
+- Used AWS services: Lambda, S3, EC2, ECR, and Batch. The pipeline was deployed using Infrastructure as Code (AWS CDK).
 
 <p style="text-align:left;margin:0; padding-top:0;">
     Star Trek: Analysis of Episodes
@@ -128,6 +148,7 @@ Technical Skills:
     </span>
 </p>
 
-- A statistical analysis of four star trek TV shows to evaluate character perception.
+- A statistical analysis of IMDb data from four star trek TV shows to evaluate which characters are perceived more favourably.
+- Engineered features from script data to create a proxy for character-screentime in each episode. 
 
 
