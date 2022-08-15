@@ -33,22 +33,20 @@ Relevant Courses: Statistics, Machine Learning, Cloud Engineering, Natural Langu
 Relevant Courses: Probability, Decision Modeling, Pattern Recognition, Operations Research, Computational Engineering
 
 
-### Technical Skills:
+<h4 style="text-align:left;margin:0; padding-top:0;">
+Technical Skills:
+</h4>
 
 - <b>Python:</b> PyTorch, Tensorflow (Keras), Pandas, Scikit-Learn, Flask
 - <b>R:</b> data.table, ggplot
 - git, docker
-
-### Certifications
-
-- AWS Machine Learning Specialty
+- <b>Certifications: </b> AWS Machine Learning Specialty
+#### Certifications
 
 ## Publications
 
 - Kishore, S., Thomas, T., Sachdev, H., Kurpad, A. V., & Webb, P. (2022) Modeling the potential impacts of improved monthly income on child stunting in India: a subnational geospatial perspective. *BMJ Open*, 12:e055098. https://doi.org/10.1136/bmjopen-2021-055098
 - Shivakumar, N., Kashyap, S., Kishore, S., Thomas, T., Varkey, A., Devi, S., Preston, T., Jahoor, F., Sheshshayee, M. S., & Kurpad, A. V. (2019). Protein-quality evaluation of complementary foods in Indian children. The *American journal of clinical nutrition*, 109(5), 1319–1327. https://doi.org/10.1093/ajcn/nqy265
-
-
 
 ## Research Experience
 
@@ -69,8 +67,9 @@ Relevant Courses: Probability, Decision Modeling, Pattern Recognition, Operation
     </span>
 </p>
 
-- Built a prototype Machine Learning model to detect incoming Earthquakes from seismological data.  
-- Improved upon state the current state of the art methods by 40%.
+- Built a prototype Machine Learning Model and framework to detect incoming earthquakes and classify their severity from seismological data.  
+- Explored the efficacy and performance of Gaussian Process Regression to model seismological data.
+- Improved upon state the current state of the art model evaluation metrics by models by 30%.
 
 ## Professional Experience
 
