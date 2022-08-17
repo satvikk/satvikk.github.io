@@ -168,7 +168,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		border-bottom: dotted 1px rgba(160, 160, 160, 0.65);
+		/* border-bottom: dotted 1px rgba(160, 160, 160, 0.65); */
 		color: inherit;
 		text-decoration: none;
 	}
@@ -2729,6 +2729,102 @@ input, select, textarea {
 				}
 
 		}
+
+/* Post-Index */
+
+	.postindex {
+		padding: 1.5em 1.5em 0.5em 1.5em ;
+		background: #ffffff;
+		border: solid 1px rgba(160, 160, 160, 0.3);
+		margin: 0 0 1em 0;
+		position: relative;
+	}
+
+		.postindex > header {
+			display: -moz-flex;
+			display: -webkit-flex;
+			display: -ms-flex;
+			display: flex;
+			border-bottom: solid 1px rgba(160, 160, 160, 0.3);
+			left: -1.5em;
+			margin: -1.5em 0 1.5em 0;
+			position: relative;
+			width: calc(100% + 3em);
+		}
+
+			.postindex > header .title {
+				-moz-flex-grow: 1;
+				-webkit-flex-grow: 1;
+				-ms-flex-grow: 1;
+				flex-grow: 1;
+				-ms-flex: 1;
+				padding: 2em 2em 0 2em
+			}
+
+			.postindex > header .meta {
+				padding: 1em 1em 1em 1em ;
+				border-left: solid 1px rgba(160, 160, 160, 0.3);
+				min-width: 17em;
+				text-align: right;
+				width: 17em;
+			}
+
+				.postindex > header .meta .published {
+					color: #3c3b3b;
+					display: block;
+					font-family: "Raleway", Helvetica, sans-serif;
+					font-size: 0.7em;
+					font-weight: 800;
+					letter-spacing: 0.25em;
+					margin-top: 0.5em;
+					text-transform: uppercase;
+					white-space: nowrap;
+				}
+		
+	.postcard {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		left: 0em;
+		margin: 0 0 1em 0;
+		position: relative;
+		width: calc(100% + 0em);
+	}
+
+	.postcard > a.posticon{
+		width : 40%;
+	}
+
+	.posticon {
+		display: block;
+		margin: 0 0 0em 0;
+		width: calc(100% + 3em);
+	}
+		.posticon img {
+			width: 100%;
+		}
+
+		@media screen and (max-width: 736px) {
+
+			.posticon {
+				margin: 0 0 0 0;
+			}
+
+		}
+	.postdesc {
+		margin: 2em 0em 0em 2em;
+		min-width: 19em;
+	}
+
+	.tags {
+		font-family: "Raleway", Helvetica, sans-serif;
+		font-size: 0.6em;
+		font-weight: 400;
+		letter-spacing: 0.25em;
+		text-transform: uppercase;
+		white-space: nowrap;
+	}
 
 /* Post */
 
