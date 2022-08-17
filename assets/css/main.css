@@ -2780,7 +2780,15 @@ input, select, textarea {
 					text-transform: uppercase;
 					white-space: nowrap;
 				}
-		
+	
+				.postindex > header .meta > * {
+					margin: 0 0 1em 0;
+				}
+	
+				.postindex > header .meta > :last-child {
+					margin-bottom: 0;
+				}
+	
 	.postcard {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -2825,6 +2833,125 @@ input, select, textarea {
 		text-transform: uppercase;
 		white-space: nowrap;
 	}
+
+/* Postindex Media */
+@media screen and (max-width: 980px) {
+
+	.postindex {
+		border-left: 0;
+		border-right: 0;
+		left: -3em;
+		width: calc(100% + (3em * 2));
+	}
+
+		.postindex > header {
+			-moz-flex-direction: column;
+			-webkit-flex-direction: column;
+			-ms-flex-direction: column;
+			flex-direction: column;
+			padding: 3.75em 3em 1.25em 3em ;
+			border-left: 0;
+		}
+
+			.postindex > header .title {
+				-ms-flex: 0 1 auto;
+				margin: 0 0 2em 0;
+				padding: 0;
+				text-align: center;
+			}
+
+			.postindex > header .meta {
+				-moz-align-items: center;
+				-webkit-align-items: center;
+				-ms-align-items: center;
+				align-items: center;
+				display: -moz-flex;
+				display: -webkit-flex;
+				display: -ms-flex;
+				display: flex;
+				-moz-justify-content: center;
+				-webkit-justify-content: center;
+				-ms-justify-content: center;
+				justify-content: center;
+				border-left: 0;
+				margin: 0 0 2em 0;
+				padding-top: 0;
+				padding: 0;
+				text-align: left;
+				width: 100%;
+			}
+
+				.postindex > header .meta > * {
+					border-left: solid 1px rgba(160, 160, 160, 0.3);
+					margin-left: 2em;
+					padding-left: 2em;
+				}
+
+				.postindex > header .meta > :first-child {
+					border-left: 0;
+					margin-left: 0;
+					padding-left: 0;
+				}
+
+				.postindex > header .meta .published {
+					margin-bottom: 0;
+					margin-top: 0;
+				}
+}
+
+@media screen and (max-width: 736px) {
+
+	.postindex {
+		padding: 1.5em 1.5em 0.1em 1.5em ;
+		left: -1.5em;
+		margin: 0 0 2em 0;
+		width: calc(100% + (1.5em * 2));
+	}
+
+		.postindex > header {
+			padding: 3em 1.5em 0.5em 1.5em ;
+			left: -1.5em;
+			margin: -1.5em 0 1.5em 0;
+			width: calc(100% + 3em);
+		}
+
+			.postindex > header .title h2 {
+				font-size: 1.1em;
+			}
+
+}
+
+@media screen and (max-width: 480px) {
+
+	.postindex > header .meta {
+		-moz-align-items: center;
+		-webkit-align-items: center;
+		-ms-align-items: center;
+		align-items: center;
+		-moz-flex-direction: column;
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		flex-direction: column;
+	}
+
+		.postindex > header .meta > * {
+			border-left: 0;
+			margin: 1em 0 0 0;
+			padding-left: 0;
+		}
+
+		.postindex > header .meta .author .name {
+			display: none;
+		}
+
+	.postindex > .posticon {
+		margin-left: -1.5em;
+		margin-top: calc(-1.5em - 1px);
+		width: calc(100% + 3em);
+	}
+
+}
+
 
 /* Post */
 
