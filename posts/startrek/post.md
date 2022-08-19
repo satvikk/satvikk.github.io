@@ -2,7 +2,7 @@ A few weeks ago, my friend and I were talking about our favourite TV show, Star 
 
 Luckily IMDb is very willing to share their data and I downloaded all the relevant files. Exploring and cleaning through the database, I settled on a neat tabular dataset with variables like episode number, season number, writer, director, and the IMDb rating. 
 
-*Checkout [report.pdf](https://github.com/satvikk/StarTrek_StatsFinalProject/blob/main/reports/report.pdf) for the full analysis.*
+*Checkout [report.pdf](report.pdf) for the full analysis.*
 
 But wait, what is Star Trek anyway? Star Trek is a Science Fiction media franchise spanning several TV shows, movies, books, and video games. It was created back in the 60s with its first TV show. Many more Star Trek TV shows have come out since, including The Next Generation that ran in 1987-1994. The TV shows typically follow an episodic formula, with each episode having a self contained plot. As with TV shows of this nature, there is a core set of characters, along some recurring characters and one-off characters. There were also many directors involved, each directing a varying number of episodes. In this analysi, my focus was on the characters, and how characters influence the IMDb rating of episodes.
 
@@ -40,7 +40,8 @@ The main idea behind our statistical methodology is that we create a proxy scree
 ## Results 📊
 #### Influence of Characters  
 
-![plot](screentime_coef.png?raw=true)
+![plot](screentime_coef.png?raw=true)  
+
 The coefficient of the fixed effects for each character will tells us how well a character is perceived by the audience. The figure illustrates the coefficient, which is the estimated average change in episode rating when a character's screentime is increased by 1 percentage point. This increase is at the expense of the screentime of "other" characters i.e. any character not included in the main character list. Corresponding 95% confidence intervals are also illustrated.
 - Most characters were not observed to have a significant impact on episode ratings.
 - Screentimes of Sisko from Star Trek: Deep Space 9 and Paris from Star Trek: Voyager have the strongest positive impact on episode ratings.

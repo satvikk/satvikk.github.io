@@ -2,7 +2,7 @@ Twitter is one of the biggest social media networks on the internet. Conversatio
 
 *Checkout our [github page](https://github.com/dai-anna/AWSCloud-TweetGenerator) for a deeper look into our project.*  
 *Checkout the [front end to our tool](https://tweetbot-frontend-q27ovwhhdq-uc.a.run.app/?userinput=Paiva).*  
-*Or see what our [twitter bot](https://twitter.com/NGtweetsdaily) is up to.*  
+*Or see what our [twitter bot](https://twitter.com/NGtweetsdaily) is up to.*  Follow it if you're into wrestling!
 
 To run tool, simply select a trending topic from the list of trending topics and hit "Submit".
 
