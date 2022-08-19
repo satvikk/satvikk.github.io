@@ -4,37 +4,43 @@
             "TITLE": "Onsite Earthquake Early Warning system using Machine Learning",
             "DATENUMBER": "2022-07-29",
             "DATETEXT": "July 29, 2022",
-            "TAGS": "Machine Learning"
+            "TAGS": "Machine Learning",
+            "GITHUB": "NULL"
         },    
         "ctscan": {
             "TITLE": "Optimizing CT scan slice count – Lesion detection using YOLO",
             "DATENUMBER": "2022-04-29",
             "DATETEXT": "April 29, 2022",
-            "TAGS": "Computer Vision; Deep Learning"
+            "TAGS": "Computer Vision; Deep Learning",
+            "GITHUB": "https://github.com/satvikk/deepLesion_CT_analysis"
         },
         "airbnb": {
             "TITLE": "AirBnB: Do Super Hosts generate more revenue than regular hosts?",
             "DATENUMBER": "2022-04-27",
             "DATETEXT": "April 27, 2022",
-            "TAGS": "Causal Inference"
+            "TAGS": "Causal Inference",
+            "GITHUB": "NULL"
         },
         "brainsegmentation": {
             "TITLE": "Brain Tumor Segmentation from clinical 3D MRI data",
             "DATENUMBER": "2022-04-14",
             "DATETEXT": "April 14, 2022",
-            "TAGS": "Computer Vision; Deep Learning"
+            "TAGS": "Computer Vision; Deep Learning",
+            "GITHUB": "https://github.com/satvikk/IDS705_Team10"
         },
         "startrek": {
             "TITLE": "Star Trek: The Analysis 🖖",
             "DATENUMBER": "2021-12-12",
             "DATETEXT": "December 12, 2021",
-            "TAGS": "Statistical Analysis"
+            "TAGS": "Statistical Analysis",
+            "GITHUB": "https://github.com/satvikk/StarTrek_StatsFinalProject"
         },
         "twitterbot": {
             "TITLE": "AWS Cloud Tweet Generator",
             "DATENUMBER": "2021-12-11",
             "DATETEXT": "December 11, 2021",
-            "TAGS": "Data Engineering"
+            "TAGS": "Data Engineering",
+            "GITHUB": "https://github.com/satvikk/AWSCloud-TweetGenerator"
         }            
     },
     "main": {

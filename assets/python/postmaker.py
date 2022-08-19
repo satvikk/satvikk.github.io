@@ -8,6 +8,8 @@ def make_single_post(template_file, variables, name):
     shutil.copyfile(template_file, newfilename)
     for var in variables:
         print(var, variables[var])
+        if var == "GITHUB":
+            continue
         with fileinput.FileInput(newfilename, inplace=True, backup=".bak") as file:
             for line in file:
                 print(line.replace("VARIABLE::" + var, variables[var]), end="")
