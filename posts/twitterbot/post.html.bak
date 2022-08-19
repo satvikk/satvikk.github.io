@@ -67,7 +67,8 @@
 										
 									</div>
 									<div class="meta">
-										<time class="published" datetime="2021-12-11">VARIABLE::DATETEXT</time>
+										<time class="published" datetime="2021-12-11">December 11, 2021</time>
+										<a class="tags"><span class="name">VARIABLE::TAGS</span></a>
 									</div>
 								</header>
 								<span class="image featured"><img src="banner" alt="" /></span>
