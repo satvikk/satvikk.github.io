@@ -25,7 +25,7 @@ def make_single_post(template_file, variables, name):
         ] = '<span class="image featured"><img src="banner" alt="" /></span>'
 
     for var in variables:
-        print(var, variables[var])
+        # print(var, variables[var])
         if var == "GITHUB":
             continue
         if var == "CONTENT":
@@ -34,7 +34,7 @@ def make_single_post(template_file, variables, name):
             elif variables[var] == "iframe-pdf":
                 variables[
                     var
-                ] = 'To view the pdf in your browser: <a href="report.pdf" target="_blank">report.pdf</a><br><br><iframe src="report.pdf" width="100%" height="1000px"></iframe>'
+                ] = 'To view the pdf directly in your browser: <a href="report.pdf" target="_blank" style="color:#0366d6">report.pdf</a><br><br><iframe src="report.pdf" width="100%" height="1000px"></iframe>'
 
         with fileinput.FileInput(newfilename, inplace=True, backup=".bak") as file:
             for line in file:
