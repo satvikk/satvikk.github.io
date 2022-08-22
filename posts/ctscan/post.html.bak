@@ -73,7 +73,7 @@
 								</header>
 								
 								VARIABLE::BANNER
-								To view the pdf directly in your browser: <a href="report.pdf" target="_blank" style="color:#0366d6">report.pdf</a>iframe-pdf<br>Checkout the github repository <a href="https://github.com/satvikk/deepLesion_CT_analysis" target="_blank" style="color:#0366d6">here</a><br><br><iframe src="report.pdf" width="100%" height="1000px"></iframe>
+								To view the pdf directly in your browser: <a href="report.pdf" target="_blank" style="color:#0366d6">report.pdf</a><br>Checkout the github repository <a href="https://github.com/satvikk/deepLesion_CT_analysis" target="_blank" style="color:#0366d6">here</a><br><br><iframe src="report.pdf" width="100%" height="700px"></iframe>
 
 								<footer>
 								</footer>

@@ -23,28 +23,28 @@ def make_single_post(template_file, variables, name):
         variables[
             "BANNER"
         ] = '<span class="image featured"><img src="banner" alt="" /></span>'
+    elif variables["BANNER"] == "iframe-youtube":
+        variables["BANNER"] = f'<iframe width="100%" src="{variables["YOUTUBE"]}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="aspect-ratio: 16 / 9;"></iframe><br><br>'
 
     for var in variables:
         # print(var, variables[var])
-        if var == "GITHUB":
-            continue
+        # if var == "GITHUB":
+        #     continue
+
         if var == "CONTENT":
             if variables[var] == "zero-markdown":
                 variables[var] = '<zero-md src="post.md"></zero-md>'
             elif variables[var] == "iframe-pdf":
                 ghline = ""
                 if "GITHUB" in variables:
-                    ghline = (
-                        variables[var]
-                        + f'<br>Checkout the github repository <a href="{variables["GITHUB"]}" target="_blank" style="color:#0366d6">here</a>'
-                    )
+                    ghline = f'<br>Checkout the github repository <a href="{variables["GITHUB"]}" target="_blank" style="color:#0366d6">here</a>'
 
                 variables[var] = (
                     (
                         'To view the pdf directly in your browser: <a href="report.pdf" target="_blank" style="color:#0366d6">report.pdf</a>'
                         + ghline
                     )
-                    + '<br><br><iframe src="report.pdf" width="100%" height="1000px"></iframe>'
+                    + '<br><br><iframe src="report.pdf" width="100%" height="700px"></iframe>'
                 )
 
         with fileinput.FileInput(newfilename, inplace=True, backup=".bak") as file:

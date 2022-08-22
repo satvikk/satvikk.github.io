@@ -5,7 +5,6 @@
             "DATENUMBER": "2022-07-29",
             "DATETEXT": "July 29, 2022",
             "TAGS": "Machine Learning",
-            "GITHUB": "NULL",
             "CONTENT": "zero-markdown"
         },    
         "ctscan": {
@@ -21,8 +20,9 @@
             "DATENUMBER": "2022-04-27",
             "DATETEXT": "April 27, 2022",
             "TAGS": "Causal Inference",
-            "GITHUB": "NULL",
-            "CONTENT": "zero-markdown"
+            "CONTENT": "iframe-pdf",
+            "BANNER": "iframe-youtube",
+            "YOUTUBE": "https://www.youtube.com/embed/-JU2L55idHQ"
         },
         "brainsegmentation": {
             "TITLE": "Brain Tumor Segmentation from clinical 3D MRI data",
