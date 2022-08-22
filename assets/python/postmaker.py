@@ -32,9 +32,20 @@ def make_single_post(template_file, variables, name):
             if variables[var] == "zero-markdown":
                 variables[var] = '<zero-md src="post.md"></zero-md>'
             elif variables[var] == "iframe-pdf":
-                variables[
-                    var
-                ] = 'To view the pdf directly in your browser: <a href="report.pdf" target="_blank" style="color:#0366d6">report.pdf</a><br><br><iframe src="report.pdf" width="100%" height="1000px"></iframe>'
+                ghline = ""
+                if "GITHUB" in variables:
+                    ghline = (
+                        variables[var]
+                        + f'<br>Checkout the github repository <a href="{variables["GITHUB"]}" target="_blank" style="color:#0366d6">here</a>'
+                    )
+
+                variables[var] = (
+                    (
+                        'To view the pdf directly in your browser: <a href="report.pdf" target="_blank" style="color:#0366d6">report.pdf</a>'
+                        + ghline
+                    )
+                    + '<br><br><iframe src="report.pdf" width="100%" height="1000px"></iframe>'
+                )
 
         with fileinput.FileInput(newfilename, inplace=True, backup=".bak") as file:
             for line in file:
