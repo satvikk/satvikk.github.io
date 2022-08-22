@@ -5,42 +5,49 @@
             "DATENUMBER": "2022-07-29",
             "DATETEXT": "July 29, 2022",
             "TAGS": "Machine Learning",
-            "GITHUB": "NULL"
+            "GITHUB": "NULL",
+            "CONTENT": "zero-markdown"
         },    
         "ctscan": {
             "TITLE": "Optimizing CT scan slice count – Lesion detection using YOLO",
             "DATENUMBER": "2022-04-29",
             "DATETEXT": "April 29, 2022",
-            "TAGS": "Computer Vision; Deep Learning",
-            "GITHUB": "https://github.com/satvikk/deepLesion_CT_analysis"
+            "TAGS": "Computer Vision<br>Deep Learning",
+            "GITHUB": "https://github.com/satvikk/deepLesion_CT_analysis",
+            "CONTENT": "zero-markdown"
         },
         "airbnb": {
             "TITLE": "AirBnB: Do Super Hosts generate more revenue than regular hosts?",
             "DATENUMBER": "2022-04-27",
             "DATETEXT": "April 27, 2022",
             "TAGS": "Causal Inference",
-            "GITHUB": "NULL"
+            "GITHUB": "NULL",
+            "CONTENT": "zero-markdown"
         },
         "brainsegmentation": {
             "TITLE": "Brain Tumor Segmentation from clinical 3D MRI data",
             "DATENUMBER": "2022-04-14",
             "DATETEXT": "April 14, 2022",
-            "TAGS": "Computer Vision; Deep Learning",
-            "GITHUB": "https://github.com/satvikk/IDS705_Team10"
+            "TAGS": "Computer Vision<br>Deep Learning",
+            "GITHUB": "https://github.com/satvikk/IDS705_Team10",
+            "CONTENT": "iframe-pdf",
+            "BANNER": ""
         },
         "startrek": {
             "TITLE": "Star Trek: The Analysis 🖖",
             "DATENUMBER": "2021-12-12",
             "DATETEXT": "December 12, 2021",
             "TAGS": "Statistical Analysis",
-            "GITHUB": "https://github.com/satvikk/StarTrek_StatsFinalProject"
+            "GITHUB": "https://github.com/satvikk/StarTrek_StatsFinalProject",
+            "CONTENT": "zero-markdown"
         },
         "twitterbot": {
             "TITLE": "AWS Cloud Tweet Generator",
             "DATENUMBER": "2021-12-11",
             "DATETEXT": "December 11, 2021",
             "TAGS": "Data Engineering",
-            "GITHUB": "https://github.com/satvikk/AWSCloud-TweetGenerator"
+            "GITHUB": "https://github.com/satvikk/AWSCloud-TweetGenerator",
+            "CONTENT": "zero-markdown"
         }            
     },
     "main": {
