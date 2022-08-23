@@ -2813,7 +2813,7 @@ input, select, textarea {
 			width: 100%;
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 200px) {
 
 			.posticon {
 				margin: 0 0 0 0;
@@ -3512,9 +3512,9 @@ input, select, textarea {
 
 		@media screen and (max-width: 980px) {
 
-			#header .links {
-				display: none;
-			}
+			/* #header .links { */
+				/* display: none; */
+			/* } */
 
 		}
 
