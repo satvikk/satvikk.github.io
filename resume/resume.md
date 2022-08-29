@@ -74,13 +74,13 @@ Technical Skills:
 <p style="text-align:left;margin:0; padding-top:0;">
     <b>St. John's Research Institute</b>
     <span style="float:right; margin-bottom:0;">
-       <i>2017–2021</i>
+    Bengaluru, India
     </span>
 </p>
 <p style="text-align:left;margin:0; padding-top:0;">
     <b> Data Scientist</b>, Data Science & Public Health Research
     <span style="float:right; margin-bottom:0;">
-        Bengaluru, India
+        <i>2017–2021</i>
     </span>
 </p>
 My role at St. John's included ideating research proposals, performing analyses, and publishing and presenting results from different projects.
