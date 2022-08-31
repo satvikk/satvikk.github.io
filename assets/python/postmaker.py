@@ -22,7 +22,7 @@ def make_single_post(template_file, variables, name):
     if "BANNER" not in variables:
         variables[
             "BANNER"
-        ] = '<span class="image featured"><img src="banner" alt="" /></span>'
+        ] = '<span class="image featured"><img src="banner.png" alt="" /></span>'
     elif variables["BANNER"] == "iframe-youtube":
         variables["BANNER"] = f'<iframe width="100%" src="{variables["YOUTUBE"]}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="aspect-ratio: 16 / 9;"></iframe><br><br>'
 
