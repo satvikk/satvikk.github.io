@@ -14,7 +14,7 @@
         <i>2021–2023</i>
     </span>
 </p>
-Relevant Courses: Statistics, Machine Learning, Cloud Engineering, Natural Language Processing, Computer Vision and Medical Imaging, Causal Inference.
+Relevant Courses: Computer Vision and Medical Imaging, Natural Language Processing (NLP), Machine Learning, Statistics, Causal Inference, Data Engineering, Deep Learning
 
 <p style="text-align:left; margin-bottom:0;">
     <br>  
@@ -29,7 +29,7 @@ Relevant Courses: Statistics, Machine Learning, Cloud Engineering, Natural Langu
         <i>2013–2017</i>
     </span>
 </p>
-Relevant Courses: Probability, Decision Modeling, Pattern Recognition, Operations Research, Computational Engineering.  
+Relevant Courses: Probability, Decision Modeling, Pattern Recognition, Operations Research, Computational Engineering
 
 <h3 style="text-align:left; border-bottom-width:1px; border-bottom-style:solid; border-bottom-color:rgb(234, 236, 239)">
 Technical Skills:
@@ -43,8 +43,10 @@ Technical Skills:
 
 ## Publications
 
-- Kishore, S., Thomas, T., Sachdev, H., Kurpad, A. V., & Webb, P. (2022) Modeling the potential impacts of improved monthly income on child stunting in India: a subnational geospatial perspective. *BMJ Open*, 12:e055098. https://doi.org/10.1136/bmjopen-2021-055098
-- Shivakumar, N., Kashyap, S., Kishore, S., Thomas, T., Varkey, A., Devi, S., Preston, T., Jahoor, F., Sheshshayee, M. S., & Kurpad, A. V. (2019). Protein-quality evaluation of complementary foods in Indian children. The *American journal of clinical nutrition*, 109(5), 1319–1327. https://doi.org/10.1093/ajcn/nqy265
+- Kishore S, Thomas T, Sachdev H, et al. Modeling the potential impacts of improved monthly income on child stunting in India: a subnational geospatial perspective. BMJ Open 2022;12:e055098. https://doi.org/10.1136/bmjopen-2021-055098
+    - Trained Gaussian Process Regression Models to calculate small-area estimates of child undernutrition in India.
+    - Estimated impact of improved income on undernutrition via injection of supplementary monthly income.
+- Shivakumar N, Kashyap S, Kishore S, et al. Protein-quality evaluation of complementary foods in Indian children. American Journal of Clinical Nutrition. 109:5. May 2019. Pages 1319–1327. https://doi.org/10.1093/ajcn/nqy265
 
 ## Research Experience
 
@@ -65,37 +67,30 @@ Technical Skills:
     </span>
 </p>
 
-- Built a prototype Machine Learning Model and framework to detect incoming earthquakes and classify their severity from seismological data.  
-- Explored the efficacy and performance of Gaussian Process Regression to model seismological data.
-- Improved upon state the current state of the art model evaluation metrics by models by 30%.
+- Developed a prototype Machine Learning algorithm to predict Earthquakes and associated intensities in Nepal.
+- Trained Gaussian Process Regression Models using Seismologic wave data in a multi-task prediction framework.
+- Implemented new testing standards. The trained model achieved a 30\% increase in R<sup>2</sup> over the SOTA. 
 
 ## Professional Experience
 
 <p style="text-align:left;margin:0; padding-top:0;">
-    <b>St. John's Research Institute</b>
+    <b>St. John's Research Institute</b> | Public Health Research
     <span style="float:right; margin-bottom:0;">
     Bengaluru, India
     </span>
 </p>
 <p style="text-align:left;margin:0; padding-top:0;">
-    <b> Data Scientist</b>, Data Science & Public Health Research
+    <b> Data Scientist</b>
     <span style="float:right; margin-bottom:0;">
         <i>2017–2021</i>
     </span>
 </p>
-My role at St. John's included ideating research proposals, performing analyses, and publishing and presenting results from different projects.
 
-- Modeling potential impacts of improved monthly income on child stunting in India — a geospatial perspective
-    - Raised $100,00 awarded by the Gates Foundation and the Government of India as part of The Grand Challenges - India.
-    - The aim was to help policymakers identify optimal strategies to reduce child undernutrition (stunting) in India.
-    - Trained and applied Gaussian Process Regressions Models to calculate small-area estimates of stunting prevalence and potential benefits.
-    - Tools used: Python, PyTorch, GPyTorch
-- Protein-quality evaluation of complementary foods in Indian children
-    - Tested statistical differences in digestibility across multiple amino acids in a clinical research experiment.
-    - Estimated digestibility corrected Amino Acid intake scores for states of India. Tested for associations with child growth failure.
-- Nutrition Value chain Data Repository
-    - Collated, preprocessed, and set up a centralized database of about 100+ harmonized datasets across the nutrition value chain (crop production to health outcomes through distribution, purchase, consumption, and absorption.
-    - Built a dashboard for easy exploration and extraction of the data for the Institute.
+- Engaged with government stakeholders to develop data science solutions to tackle child undernutrition in India.
+- Ideated and developed research projects to discover efficiency of different methods to tackle undernutrition. 
+- Raised \$200,000 in funding from the Bill and Melinda Gates Foundation and led a project that analyzed impact of improved household monthly income on child undernutrition prevalence.
+- Developed and trained geospatial models using Gaussian Process Regressions on large datasets using PyTorch.
+- Compiled public health data from different sources into a data repository that was adopted by multiple institutions.
 
 ## Projects
 
