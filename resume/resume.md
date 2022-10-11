@@ -62,7 +62,13 @@ Technical Skills:
 ## Professional Experience
 
 <p style="text-align:left;margin:0; padding-top:0;">
-    Data+ Rhodes Information Initiative
+    <b>Data+ Rhodes Information Initiative</b>
+    <span style="float:right; margin-bottom:0;">
+        Durham, NC
+    </span>
+</p>
+<p style="text-align:left;margin:0; padding-top:0;">
+    <b> Machine Learning Engineer Intern</b>
     <span style="float:right; margin-bottom:0;">
         <i>May 2022 &ndash; Aug 2022</i>
     </span>
@@ -81,7 +87,7 @@ Technical Skills:
 <p style="text-align:left;margin:0; padding-top:0;">
     <b> Data Scientist</b>
     <span style="float:right; margin-bottom:0;">
-        <i>2017–2021</i>
+        <i>Jul 2017 &ndash; May 2021</i>
     </span>
 </p>
 
@@ -93,9 +99,15 @@ Technical Skills:
 
 
 <p style="text-align:left;margin:0; padding-top:0;">
-    Lighthouse Datalabs
+    <b> Lighthouse Datalabs </b>
     <span style="float:right; margin-bottom:0;">
-        <i>May 2016 &ndash; Aug 2016</i>
+        Pune, India
+    </span>
+</p>
+<p style="text-align:left;margin:0; padding-top:0;">
+    <b> Data Science Intern</b>
+    <span style="float:right; margin-bottom:0;">
+        <i>May 2016 &ndash; Jul 2016</i>
     </span>
 </p>
 
