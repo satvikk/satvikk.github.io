@@ -48,7 +48,16 @@
             "TAGS": "Data Engineering",
             "GITHUB": "https://github.com/satvikk/AWSCloud-TweetGenerator",
             "CONTENT": "zero-markdown"
-        }            
+        },
+        "capstone": {
+            "TITLE": "Prediction Churn in Machine Learning",
+            "DATENUMBER": "2022-12-15",
+            "DATETEXT": "December 15, 2022",
+            "TAGS": "Machine Learning",
+            "CONTENT": "iframe-pdf",
+            "BANNER": "embed-canva",
+            "CANVA": "https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFV1D3qki4&#x2F;view?embed"
+        }
     },
     "main": {
         "navbar_length": 5,

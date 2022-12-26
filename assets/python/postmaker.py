@@ -25,6 +25,14 @@ def make_single_post(template_file, variables, name):
         ] = '<span class="image featured"><img src="banner.png" alt="" /></span>'
     elif variables["BANNER"] == "iframe-youtube":
         variables["BANNER"] = f'<iframe width="100%" src="{variables["YOUTUBE"]}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="aspect-ratio: 16 / 9;"></iframe><br><br>'
+    elif variables["BANNER"] == "embed-canva":
+        variables["BANNER"] = (
+            '<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px; will-change: transform;">' +
+            '<iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"' +
+            f'src={variables["CANVA"]} allowfullscreen="allowfullscreen" allow="fullscreen">' +
+            '</iframe></div>'
+        )
+        
 
     for var in variables:
         # print(var, variables[var])
