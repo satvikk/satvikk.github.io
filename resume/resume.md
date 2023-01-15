@@ -44,7 +44,6 @@ Technical Skills:
 ## Publications
 
 - Kishore S, Thomas T, Sachdev H, et al. Modeling the potential impacts of improved monthly income on child stunting in India: a subnational geospatial perspective. BMJ Open 2022;12:e055098. https://doi.org/10.1136/bmjopen-2021-055098
-    - Trained Geospatial Machine Learning models to calculate small-area estimates of child undernutrition
 - Shivakumar N, Kashyap S, Kishore S, et al. Protein-quality evaluation of complementary foods in Indian children. American Journal of Clinical Nutrition. 109:5. May 2019. Pages 1319–1327. https://doi.org/10.1093/ajcn/nqy265
 
 ## Research Experience
