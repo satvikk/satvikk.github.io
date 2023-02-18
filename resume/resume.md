@@ -35,7 +35,7 @@ Relevant Courses: Probability, Decision Modeling, Pattern Recognition, Operation
 Technical Skills:
 </h3>
 
-- <b>Python:</b> PyTorch, Tensorflow (Keras), Pandas, Scikit-Learn, Numpy, Panas, Matplotlib, Flask
+- <b>Python:</b> PyTorch, Tensorflow (Keras), Pandas, Scikit-Learn, Numpy, Matplotlib, Flask
 - <b>R:</b> data.table, ggplot
 - SQL, Git, Docker, Amazon Web Services, Tableau
 - <b>Certifications: </b> AWS Machine Learning Specialty
@@ -49,14 +49,21 @@ Technical Skills:
 ## Research Experience
 
 <p style="text-align:left;margin:0; padding-top:0;">
-    Interpretable Computer Vision Models for diagnosing breast cancer
+    <b>Interpretable Machine Learning Lab, Duke University</b> under Dr. Cynthia Rudin
+    <span style="float:right; margin-bottom:0;">
+        Durham, NC
+    </span>
+</p>
+<p style="text-align:left;margin:0; padding-top:0;">
+    <!-- <b> Graduate Research Assistant</b> -->
     <span style="float:right; margin-bottom:0;">
         <i>Jun 2022 &ndash; Present</i>
     </span>
 </p>
 
-- Developing convolutional neural networks with additional prototype layers to aid in interpretability.  
-- These models provide diagnoses on malignancy of breast tissue along with informing the physician why the model has made the prediction.
+- Designed computer vision breast cancer detection model based on case based reasoning architecture in PyTorch.
+- Achieved SOTA AUC scores of 0.95 while improving the interpretability of the model by making it more sensitive to
+fine-grained features in images.
 
 ## Professional Experience
 
@@ -73,12 +80,13 @@ Technical Skills:
     </span>
 </p>
 
-- Developed a prototype Machine Learning algorithm that will be installed in Earthquake Early warning sites in Nepal.
-- Trained multi-task Gaussian Process Regressions and Linear Regression models from Japanese seismological data.
-- Implemented a novel bivariate model testing framework. Achieved 30% increase in R<sup>2</sup> over the SOTA
+- Developed Gaussian Process Regression Machine Learning models for earthquake early warning systems in Nepal.
+- Implemented pipeline that takes in input the seismograph wave data, transforms the data to wave features, then uses the
+trained model to predict intensity of oncoming earthquakes to trigger alarms.
+- Improved upon the SOTA R2 scores by 30%. The model is set to be installed in earthquake detection facilities in Nepal.
 
 <p style="text-align:left;margin:0; padding-top:0;">
-    <b>St. John's Research Institute</b> | Public Health Research
+    <b>St. John's National Academy of Health Sciences</b>
     <span style="float:right; margin-bottom:0;">
     Bengaluru, India
     </span>
@@ -90,12 +98,11 @@ Technical Skills:
     </span>
 </p>
 
+- Standardized and centralized health data from multiple sources into a single repository to be used by multiple institutions.
 - Engaged with government stakeholders to develop data science solutions to tackle child undernutrition in India.
-- Ideated and developed research projects to discover efficiency of different methods to tackle undernutrition. 
-- Raised \$200,000 in funding from the Bill and Melinda Gates Foundation and led a project that analyzed impact of improved household monthly income on child undernutrition prevalence.
-- Developed and trained geospatial models using Gaussian Process Regressions on large datasets using PyTorch.
-- Compiled public health data from different sources into a data repository that was adopted by multiple institutions.
-
+- Secured $200,000 in funding from the Bill and Melinda Gates Foundation to lead a project on analyzing the impact of
+improved household income on child undernutrition in India.
+- Modelled child undernutrition in the country through Geospatial Machine Learning Models using PyTorch. 
 
 <p style="text-align:left;margin:0; padding-top:0;">
     <b> Lighthouse Datalabs </b>
@@ -106,34 +113,34 @@ Technical Skills:
 <p style="text-align:left;margin:0; padding-top:0;">
     <b> Data Science Intern</b>
     <span style="float:right; margin-bottom:0;">
-        <i>May 2016 &ndash; Jul 2016</i>
+        <i>May 2016 &ndash; Dec 2016</i>
     </span>
 </p>
 
 - Developed machine learning models to help a healthcare blog client perform demographic based ad targeting.
-- Trained tree-based models to classify age and sex of users, improving the AUC by 10% and ad click-through rate by 5%.
+- Trained tree-based ensemble models to classify user’s age and sex, improving AUC by 10%, ad click-through rate by 5%.
 
 ## Projects
 
 <p style="text-align:left;margin:0; padding-top:0;">
-    Brain Tumor Segmentation
+    Brain Tumor image segmentation using U-Nets
     <span style="float:right; margin-bottom:0;">
         <i>Spring 2022</i>
     </span>
 </p>
 
-- Built Image Segmentation Neural Network Models (U-net) that scan 3-dimensional brain MRI images and identiy regions of brain associated with a tumor.
-- The model can be used to aid neurosurgeons to precisely locate damaged regions in the brain.
+- Developed an AI tool for brain tumor image segmentation for precise neurosurgery, using TensorFlow.
+- Implemented a "U-Net" Deep Neural network architecture to achieve a DICE similiarity score of 81%.
 
 <p style="text-align:left;margin:0; padding-top:0;">
-    Optimizing CT scan slice count through Lesion detection using YOLO
+     CT Scan Imaging Optimization
     <span style="float:right; margin-bottom:0;">
         <i>Spring 2022</i>
     </span>
 </p>
 
-- Simulated and optimized CT imaging on a lesion dataset, creating synthetic data at varying CT projection count.
-- Achieved a decrease in cost by 75% by succesfully training Yolo Object Detection models with acceptable accuracy.
+- Conducted a study on optimization of radiation exposure in CT scans to balance image quality and lesion detection.
+- Trained YOLO models to reduce radiation exposure by 50% while maintaining lesion detection capability.
 
 <p style="text-align:left;margin:0; padding-top:0;">
     Does Airbnb listing’s annual revenue vary by with host status?
@@ -146,14 +153,14 @@ Technical Skills:
 - Used Causal Inference principles to balance data and determined that superhosts are indeed more profitable.
 
 <p style="text-align:left;margin:0; padding-top:0;">
-    AWS Cloud Tweet Generator
+    AWS Powered Tweet Generator.
     <span style="float:right; margin-bottom:0;">
         <i>Fall 2021</i>
     </span>
 </p>
 
-- Engineered an AWS cloud solution to generate new artificial tweets everyday based on relevant current topics.
-- Implemented an NLP model that trains on newly scraped and cleaned everyday data costing less than $1/month.
+- Implemented and dockerized NLP model to retrain on fresh daily data and deployed to generate trend-relevant tweets.
+- Engineered AWS cloud solution to schedule NLP docker containers to run everyday. Brought down costs to < $1/month.
 - Used AWS services: Lambda, S3, EC2, ECR, and Batch. The pipeline was deployed using Infrastructure as Code (AWS CDK).
 
 <p style="text-align:left;margin:0; padding-top:0;">
