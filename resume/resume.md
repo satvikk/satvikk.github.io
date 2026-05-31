@@ -11,7 +11,7 @@
 <p style="text-align:left;margin:0; padding-top:0;">
     Masters in Interdisciplinary Data Science
     <span style="float:right; margin:0; padding-top:0;">
-        <i>Expected: May 2023</i>
+        <i>Aug 2021 - May 2023</i>
     </span>
 </p>
 
@@ -33,8 +33,8 @@
 Technical Skills:
 </h3>
 
-- <b>Python:</b> PyTorch, Tensorflow (Keras), Pandas, Scikit-Learn, Numpy, Matplotlib, Flask, FastAPI
-- SQL, Git, Docker, Amazon Web Services, Tableau
+- <b>Python:</b> PyTorch, Tensorflow, Pandas, Scikit-Learn, Numpy, Matplotlib, FastAPI, LangChain, Strands
+- SQL, Docker, Amazon Web Services
 - <b>Certifications: </b> AWS Machine Learning Specialty
 
 
@@ -63,15 +63,29 @@ Technical Skills:
 ## Professional Experience
 
 <p style="text-align:left;margin:0; padding-top:0;">
+    <b>InfoServices (ADP)</b>
+    <span style="float:right; margin-bottom:0;">
+        Florham Park, NJ
+    </span>
+</p>
+<p style="text-align:left;margin:0; padding-top:0;">
+    <i> AI Engineer</i>
+    <span style="float:right; margin-bottom:0;">
+        <i>Apr 2026 &ndash; Present</i>
+    </span>
+</p>
+<br>
+
+<p style="text-align:left;margin:0; padding-top:0;">
     <b>Cargill Inc.</b>
     <span style="float:right; margin-bottom:0;">
-        Remote
+        Arlington, VA
     </span>
 </p>
 <p style="text-align:left;margin:0; padding-top:0;">
     <i> Machine Learning Engineer</i>
     <span style="float:right; margin-bottom:0;">
-        <i>Aug 2023 &ndash; Present</i>
+        <i>Aug 2023 &ndash; Apr 2026</i>
     </span>
 </p>
 <br>
