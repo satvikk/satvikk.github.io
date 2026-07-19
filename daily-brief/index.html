@@ -7,224 +7,249 @@
 <link rel="icon" href="/favicon.ico">
 <style>
   :root{
-    --bg:#0f1115; --card:#181b22; --card2:#1e222b; --ink:#e8eaed; --soft:#9aa0a8;
-    --line:#2a2f3a; --accent:#6ea8fe; --tech:#5ad1a4; --ai:#b98cff; --world:#ffb454;
-    --us:#ff7a7a; --india:#ff9f43; --sport:#4dd4c4; --music:#ff5c8a;
+    --bg:#0d0f14; --panel:#161a22; --panel2:#1c212b; --border:#262c38;
+    --text:#e8ebf0; --muted:#9aa3b2; --accent:#d97757; --accent2:#7aa2ff;
   }
   *{box-sizing:border-box;margin:0;padding:0}
-  body{background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.5;padding:0 0 60px}
-  .wrap{max-width:920px;margin:0 auto;padding:0 20px}
-  header{padding:42px 20px 28px;text-align:center;border-bottom:1px solid var(--line);margin-bottom:34px;background:linear-gradient(180deg,#141821,transparent)}
-  header .date{color:var(--soft);font-size:14px;letter-spacing:.14em;text-transform:uppercase}
-  header h1{font-size:38px;font-weight:700;margin-top:8px;letter-spacing:-.5px}
-  header .byline{display:inline-flex;align-items:center;gap:6px;margin-top:10px;padding:4px 12px;border:1px solid #3a2e28;border-radius:20px;background:#20191533;color:#e0a58c;font-size:12px;font-weight:600;letter-spacing:.04em}
-  header .byline svg{display:block}
-  header p{color:var(--soft);margin-top:14px;font-size:15px}
-  section{margin-bottom:38px}
-  .sec-title{display:flex;align-items:center;gap:10px;font-size:13px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--soft);margin-bottom:16px}
-  .sec-title .bar{width:26px;height:3px;border-radius:3px;background:var(--accent)}
-  .grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column;transition:transform .15s,border-color .15s}
-  .card:hover{transform:translateY(-3px);border-color:#3a4150}
-  .thumb{height:120px;display:flex;align-items:center;justify-content:center;font-size:44px}
-  .card .body{padding:16px 18px 18px}
-  .tag{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:3px 9px;border-radius:20px;margin-bottom:10px}
-  .card h3{font-size:17px;line-height:1.3;margin-bottom:8px}
-  .card p{color:var(--soft);font-size:14px;margin-bottom:12px}
-  .card a{color:var(--accent);text-decoration:none;font-size:13px;font-weight:600}
-  .card a:hover{text-decoration:underline}
-  .full{grid-column:1/-1}
-  .sports{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
-  .sportcard{background:var(--card2);border:1px solid var(--line);border-radius:14px;padding:18px}
-  .sportcard h3{font-size:15px;margin-bottom:10px;display:flex;align-items:center;gap:8px}
-  .sportcard p{color:var(--soft);font-size:13.5px;margin-bottom:8px}
-  .sportcard a{color:var(--accent);font-size:12.5px;text-decoration:none;font-weight:600}
-  .music{display:flex;gap:20px;align-items:center;background:linear-gradient(135deg,#241726,#1a1720);border:1px solid #3a2a3a;border-radius:16px;padding:22px 24px}
-  .music .disc{width:88px;height:88px;border-radius:50%;background:radial-gradient(circle at 40% 40%,#ff5c8a,#7a1e3a 70%,#120a10);flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:34px;box-shadow:0 0 0 6px #1a1015}
-  .music h3{font-size:20px;margin-bottom:4px}
-  .music .meta{color:var(--music);font-weight:600;font-size:14px;margin-bottom:8px}
-  .music p{color:var(--soft);font-size:14px;margin-bottom:10px}
-  .music a{color:#ff89ab;text-decoration:none;font-weight:600;font-size:13px}
-  footer{text-align:center;color:var(--soft);font-size:12.5px;padding-top:10px;border-top:1px solid var(--line)}
-  @media(max-width:680px){.grid,.sports{grid-template-columns:1fr}header h1{font-size:30px}.music{flex-direction:column;text-align:center}}
+  body{
+    background:var(--bg);color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.55;-webkit-font-smoothing:antialiased;padding:0 20px 60px;
+  }
+  .wrap{max-width:1040px;margin:0 auto}
+  header{text-align:center;padding:52px 0 30px}
+  .datipe{color:var(--muted);font-size:14px;letter-spacing:.06em;text-transform:uppercase}
+  h1{font-size:40px;font-weight:800;margin:10px 0 14px;letter-spacing:-.02em}
+  .pill{
+    display:inline-flex;align-items:center;gap:7px;background:var(--panel2);
+    border:1px solid var(--border);border-radius:999px;padding:6px 14px;
+    font-size:13px;color:var(--muted);font-weight:600
+  }
+  .greet{color:var(--muted);margin-top:16px;font-size:16px}
+  section{margin-top:44px}
+  .sec-title{
+    font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--accent);margin-bottom:18px;padding-bottom:10px;border-bottom:1px solid var(--border)
+  }
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+  .grid3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:18px}
+  .card{
+    background:var(--panel);border:1px solid var(--border);border-radius:14px;
+    overflow:hidden;display:flex;flex-direction:column;transition:border-color .2s
+  }
+  .card:hover{border-color:#3a4252}
+  .thumb{height:92px;display:flex;align-items:center;justify-content:center;font-size:38px}
+  .body{padding:16px 18px 18px;display:flex;flex-direction:column;flex:1}
+  .tag{
+    display:inline-block;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+    color:var(--accent2);margin-bottom:8px
+  }
+  .card h3{font-size:17px;font-weight:700;line-height:1.35;margin-bottom:8px}
+  .brief{color:var(--muted);font-size:14px;flex:1}
+  .card a,.song a{color:var(--accent);text-decoration:none;font-weight:600;font-size:13px;margin-top:12px;display:inline-block}
+  .card a:hover,.song a:hover{text-decoration:underline}
+  .song{
+    background:linear-gradient(135deg,#1c212b,#241b18);
+    border:1px solid #3a2c24;border-radius:16px;padding:26px 28px;display:flex;gap:22px;align-items:center
+  }
+  .song .disc{
+    width:70px;height:70px;min-width:70px;border-radius:50%;
+    background:radial-gradient(circle at center,#0d0f14 26%,var(--accent) 27%,#8a4632 100%);
+    display:flex;align-items:center;justify-content:center;font-size:26px
+  }
+  .song h3{font-size:20px;font-weight:800;margin-bottom:4px}
+  .song .meta{color:var(--muted);font-size:13px;margin-bottom:8px}
+  .song p{color:var(--text);font-size:14px}
+  footer{text-align:center;color:var(--muted);font-size:12px;margin-top:56px;padding-top:22px;border-top:1px solid var(--border)}
+  @media(max-width:680px){
+    .grid2,.grid3{grid-template-columns:1fr}
+    h1{font-size:32px}
+    .song{flex-direction:column;text-align:center}
+  }
 </style>
 </head>
 <body>
-<header>
-  <div class="date">Sunday · July 19, 2026</div>
-  <h1>Satvik's Daily Brief</h1>
-  <div class="byline">
-    <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
-      <g fill="#d97757">
-        <rect x="11" y="1" width="2" height="22" rx="1"/>
-        <rect x="1" y="11" width="22" height="2" rx="1"/>
-        <rect x="11" y="1" width="2" height="22" rx="1" transform="rotate(45 12 12)"/>
-        <rect x="1" y="11" width="22" height="2" rx="1" transform="rotate(45 12 12)"/>
-        <rect x="11" y="1" width="2" height="22" rx="1" transform="rotate(22.5 12 12)"/>
-        <rect x="1" y="11" width="22" height="2" rx="1" transform="rotate(22.5 12 12)"/>
-      </g>
-    </svg>
-    <span>Created by Claude</span>
-  </div>
-  <p>Good morning, Satvik. Here's what's worth knowing today.</p>
-</header>
-
 <div class="wrap">
+  <header>
+    <div class="datipe">Sunday &middot; July 19, 2026</div>
+    <h1>Satvik's Daily Brief</h1>
+    <span class="pill">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="#d97757" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 0l2.35 8.09L22 6l-5.6 5.6L24 14l-8.09-.35L18 22l-6-5.6L6 22l2.09-8.35L0 14l7.6-2.4L2 6l7.65 2.09z"/>
+      </svg>
+      Created by Claude
+    </span>
+    <p class="greet">Good morning, Satvik. Here's what's worth knowing to start the day.</p>
+  </header>
 
-  <!-- TECH -->
   <section>
-    <div class="sec-title"><span class="bar" style="background:var(--tech)"></span>Tech · Non-AI</div>
-    <div class="grid">
+    <div class="sec-title">Tech &mdash; Non-AI</div>
+    <div class="grid2">
       <div class="card">
-        <div class="thumb" style="background:linear-gradient(135deg,#12352b,#0e2620)">🔋</div>
+        <div class="thumb" style="background:linear-gradient(135deg,#2a3550,#1a2030)">🎧</div>
         <div class="body">
-          <span class="tag" style="background:#12352b;color:var(--tech)">Hardware</span>
-          <h3>Solid-state battery mystery finally cracked</h3>
-          <p>Researchers worked out how soft lithium dendrites crack hard ceramic inside solid-state cells — a breakthrough toward safer, longer-lasting batteries for phones and EVs.</p>
-          <a href="https://www.sciencedaily.com/news/matter_energy/technology/" target="_blank">Read on ScienceDaily →</a>
+          <span class="tag">Audio</span>
+          <h3>Sony unveils 1000X &lsquo;The ColleXion&rsquo; flagship headphones</h3>
+          <p class="brief">Sony&rsquo;s new top-tier noise-canceling headphones lean premium, swapping in soft vegan leather and metal accents over the outgoing model&rsquo;s plastics.</p>
+          <a href="https://www.techradar.com/home/top-tech-of-the-month-the-best-new-gadgets-weve-tested-for-july-2026" target="_blank" rel="noopener">Read on TechRadar &rarr;</a>
         </div>
       </div>
       <div class="card">
-        <div class="thumb" style="background:linear-gradient(135deg,#12352b,#0e2620)">⌚</div>
+        <div class="thumb" style="background:linear-gradient(135deg,#3a2f22,#241a12)">🔋</div>
         <div class="body">
-          <span class="tag" style="background:#12352b;color:var(--tech)">Gadgets</span>
-          <h3>The best new gadgets we tested in July</h3>
-          <p>TechRadar's monthly roundup — from Xiaomi's 6mm silicon-carbon power bank to the 12-gram screenless Fitbit Air and the DJI Avata 360 drone.</p>
-          <a href="https://www.techradar.com/home/top-tech-of-the-month-the-best-new-gadgets-weve-tested-for-july-2026" target="_blank">Read on TechRadar →</a>
+          <span class="tag">Gadgets</span>
+          <h3>Xiaomi&rsquo;s 6mm UltraThin magnetic power bank</h3>
+          <p class="brief">At just 6mm thick and 98 grams, Xiaomi&rsquo;s new MagSafe-style pack still squeezes in 5,000 mAh thanks to a dense silicon-carbon battery (16% silicon).</p>
+          <a href="https://www.yankodesign.com/2026/07/07/the-8-best-tech-gadgets-of-july-2026/" target="_blank" rel="noopener">Read on Yanko Design &rarr;</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- AI -->
   <section>
-    <div class="sec-title"><span class="bar" style="background:var(--ai)"></span>Artificial Intelligence</div>
-    <div class="grid">
+    <div class="sec-title">Artificial Intelligence</div>
+    <div class="grid2">
       <div class="card">
-        <div class="thumb" style="background:linear-gradient(135deg,#241a35,#1a1428)">🤖</div>
+        <div class="thumb" style="background:linear-gradient(135deg,#22303a,#141f26)">🥇</div>
         <div class="body">
-          <span class="tag" style="background:#241a35;color:var(--ai)">Models</span>
-          <h3>OpenAI broadens GPT-5.6 rollout</h3>
-          <p>Sol, Terra and Luna go wide after extra testing. The industry's tone has shifted from "how big is the model" to "how reliably does it finish real tasks."</p>
-          <a href="https://www.crescendo.ai/news/latest-ai-news-and-updates" target="_blank">Read the roundup →</a>
+          <span class="tag">Models</span>
+          <h3>Moonshot&rsquo;s Kimi K3 tops the Frontend Code Arena</h3>
+          <p class="brief">Kimi K3 hit #1 on Arena.ai&rsquo;s Frontend Code Arena with a 76% pairwise win rate, edging out Claude Fable 5. Open weights are promised by July 27.</p>
+          <a href="https://www.buildfastwithai.com/blogs/ai-news-today-july-18-2026" target="_blank" rel="noopener">Read the roundup &rarr;</a>
         </div>
       </div>
       <div class="card">
-        <div class="thumb" style="background:linear-gradient(135deg,#241a35,#1a1428)">⚖️</div>
+        <div class="thumb" style="background:linear-gradient(135deg,#33223a,#1f1426)">⏳</div>
         <div class="body">
-          <span class="tag" style="background:#241a35;color:var(--ai)">Governance</span>
-          <h3>UN warns of 'catastrophic harm', pushes governance</h3>
-          <p>The UN Global Dialogue on AI Governance met in Geneva as the EU AI Act's phased rollout makes transparency and risk classification legal requirements.</p>
-          <a href="https://news.un.org/en/story/2026/07/1167862" target="_blank">Read on UN News →</a>
+          <span class="tag">Big Tech</span>
+          <h3>Google reportedly delays Gemini 3.5 Pro again</h3>
+          <p class="brief">The rebuilt model fell short on coding and complex reasoning in testing, pushing its launch back once more. Alphabet shares slipped about 4% on the news.</p>
+          <a href="https://www.buildfastwithai.com/blogs/ai-news-today-july-18-2026" target="_blank" rel="noopener">Read the roundup &rarr;</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- WORLD -->
   <section>
-    <div class="sec-title"><span class="bar" style="background:var(--world)"></span>World</div>
-    <div class="grid">
+    <div class="sec-title">World</div>
+    <div class="grid2">
       <div class="card">
-        <div class="thumb" style="background:linear-gradient(135deg,#3a2c12,#28200e)">🏆</div>
+        <div class="thumb" style="background:linear-gradient(135deg,#3a2222,#261414)">🌍</div>
         <div class="body">
-          <span class="tag" style="background:#3a2c12;color:var(--world)">World Cup</span>
-          <h3>Spain vs Argentina in the World Cup final tonight</h3>
-          <p>Argentina chase back-to-back titles against Spain at MetLife Stadium, New Jersey. England took bronze, beating France 6-4.</p>
-          <a href="https://www.espn.com/soccer/story/_/id/49397314/world-cup-2026-today-live-updates-news-england-spain-argentina-france-july-19" target="_blank">Follow on ESPN →</a>
+          <span class="tag">Middle East</span>
+          <h3>U.S. concludes 8th night of strikes on Iran</h3>
+          <p class="brief">The latest round followed an Iranian attack that killed two U.S. soldiers, with a third reported missing. Tehran has suspended an agreement with Washington.</p>
+          <a href="https://www.cbsnews.com/live-updates/iran-war-trump-strait-of-hormuz-attacks-persian-gulf/" target="_blank" rel="noopener">Read on CBS News &rarr;</a>
         </div>
       </div>
       <div class="card">
-        <div class="thumb" style="background:linear-gradient(135deg,#3a2c12,#28200e)">🌍</div>
+        <div class="thumb" style="background:linear-gradient(135deg,#22343a,#142226)">🏦</div>
         <div class="body">
-          <span class="tag" style="background:#3a2c12;color:var(--world)">Middle East</span>
-          <h3>US concludes 8th night of strikes on Iran</h3>
-          <p>Strikes follow an Iranian attack that killed two US soldiers, with a third missing in action — the first US fatalities from Iranian fire since March.</p>
-          <a href="https://www.cbsnews.com/live-updates/iran-war-trump-strait-of-hormuz-attacks-persian-gulf/" target="_blank">Read on CBS News →</a>
+          <span class="tag">Economy</span>
+          <h3>Libya links its banks to China&rsquo;s payment system</h3>
+          <p class="brief">Libya agreed to connect its commercial banks to China&rsquo;s cross-border payment and settlement network, a move aimed at reducing reliance on the U.S. dollar.</p>
+          <a href="https://www.aa.com.tr/en/world/morning-briefing-july-19-2026/4002572" target="_blank" rel="noopener">Read on AA &rarr;</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- US -->
   <section>
-    <div class="sec-title"><span class="bar" style="background:var(--us)"></span>United States</div>
-    <div class="grid">
+    <div class="sec-title">United States</div>
+    <div class="grid2">
       <div class="card">
-        <div class="thumb" style="background:linear-gradient(135deg,#3a1616,#280f0f)">🥛</div>
+        <div class="thumb" style="background:linear-gradient(135deg,#2a2a3a,#181826)">⚖️</div>
         <div class="body">
-          <span class="tag" style="background:#3a1616;color:var(--us)">Business</span>
-          <h3>Cyberattack halts Fairlife milk production</h3>
-          <p>A cybersecurity incident forced Coca-Cola to suspend US Fairlife production while an investigation is underway.</p>
-          <a href="https://www.cbsnews.com/" target="_blank">Read on CBS News →</a>
+          <span class="tag">Courts</span>
+          <h3>Andrew Tate and brother taken into custody</h3>
+          <p class="brief">The Tate brothers were detained on a sealed warrant as British prosecutors seek their extradition on rape and trafficking charges.</p>
+          <a href="https://www.cbsnews.com/" target="_blank" rel="noopener">Read on CBS News &rarr;</a>
         </div>
       </div>
       <div class="card">
-        <div class="thumb" style="background:linear-gradient(135deg,#3a1616,#280f0f)">🌫️</div>
+        <div class="thumb" style="background:linear-gradient(135deg,#3a3222,#261f12)">🌫️</div>
         <div class="body">
-          <span class="tag" style="background:#3a1616;color:var(--us)">Environment</span>
-          <h3>Wildfire smoke blankets Midwest and East Coast</h3>
-          <p>Heavy smoke from fires in Canada and Minnesota is triggering air-quality alerts across large swaths of the US.</p>
-          <a href="https://www.cbsnews.com/news/wildfires-smoke-millions-exposed-midwest-northeast-us/" target="_blank">Read on CBS News →</a>
+          <span class="tag">Environment</span>
+          <h3>Wildfire smoke pushes air quality to record lows</h3>
+          <p class="brief">Heavy smoke from fires in Canada and Minnesota blanketed the Midwest and East Coast, sending air quality indexes to record levels for millions.</p>
+          <a href="https://www.cbsnews.com/news/wildfires-smoke-millions-exposed-midwest-northeast-us/" target="_blank" rel="noopener">Read on CBS News &rarr;</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- INDIA -->
   <section>
-    <div class="sec-title"><span class="bar" style="background:var(--india)"></span>India</div>
-    <div class="grid">
-      <div class="card full">
-        <div class="thumb" style="background:linear-gradient(135deg,#3a2a10,#2a1e0b)">🏛️</div>
+    <div class="sec-title">India</div>
+    <div class="grid2">
+      <div class="card">
+        <div class="thumb" style="background:linear-gradient(135deg,#223a2a,#14261a)">🏔️</div>
         <div class="body">
-          <span class="tag" style="background:#3a2a10;color:var(--india)">Politics</span>
-          <h3>Monsoon session of Parliament begins tomorrow</h3>
-          <p>The session runs July 20 to August 13 with 19 sittings scheduled. Separately, the IMD has issued a heavy-rainfall alert for Jammu &amp; Kashmir through July 23.</p>
-          <a href="https://www.aajtak.in/india/news/story/aaj-ki-taza-khabar-19-july-2026-morning-top-news-headlines-ntc-drmt-dskc-2604525-2026-07-19" target="_blank">Read on AajTak →</a>
+          <span class="tag">National</span>
+          <h3>Amarnath and Vaishno Devi yatras suspended</h3>
+          <p class="brief">Both pilgrimages were temporarily halted from July 19 as authorities cited an inclement weather forecast across the region.</p>
+          <a href="https://theindiamoves.com/story/top-11-news-stories-from-india-for-july-19-2026" target="_blank" rel="noopener">Read on The India Moves &rarr;</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="thumb" style="background:linear-gradient(135deg,#2a223a,#1a1426)">🛰️</div>
+        <div class="body">
+          <span class="tag">Space</span>
+          <h3>ISRO says next satellite batch nearly ready</h3>
+          <p class="brief">Chairman V. Narayanan said two satellites are fully built and five to six others are in the final phase of integration.</p>
+          <a href="https://www.business-standard.com/india-news" target="_blank" rel="noopener">Read on Business Standard &rarr;</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- SPORTS -->
   <section>
-    <div class="sec-title"><span class="bar" style="background:var(--sport)"></span>Sports Highlights</div>
-    <div class="sports">
-      <div class="sportcard">
-        <h3>⚽ Soccer</h3>
-        <p><strong>World Cup final today:</strong> Spain vs Argentina at MetLife. In the third-place game, England thumped France 6-4 — 4-0 up at half — while Mbappé became the all-time World Cup goal king.</p>
-        <a href="https://www.foxsports.com/soccer/fifa-world-cup/highlights" target="_blank">Highlights →</a>
+    <div class="sec-title">Sports Highlights</div>
+    <div class="grid3">
+      <div class="card">
+        <div class="thumb" style="background:linear-gradient(135deg,#22343a,#142226)">⚽</div>
+        <div class="body">
+          <span class="tag">Soccer</span>
+          <h3>World Cup final tonight</h3>
+          <p class="brief">Argentina meet Spain at MetLife Stadium tonight, Messi vs. Yamal, with Argentina chasing back-to-back titles. Earlier, England beat France 6&ndash;4 in a wild third-place playoff.</p>
+          <a href="https://www.espn.com/soccer/story/_/id/49397314/world-cup-2026-today-live-updates-news-england-spain-argentina-france-july-19" target="_blank" rel="noopener">Live updates on ESPN &rarr;</a>
+        </div>
       </div>
-      <div class="sportcard">
-        <h3>🏏 Cricket</h3>
-        <p><strong>ENG vs IND, 3rd ODI at Lord's:</strong> England posted a big 387/3, India chasing hard. India took the 1st ODI by 6 wickets (Gill 80, Axar 4-62); England swept the T20Is 4-0.</p>
-        <a href="https://www.cricinfo.com/series/india-in-england-2026-1496488" target="_blank">Scorecard →</a>
+      <div class="card">
+        <div class="thumb" style="background:linear-gradient(135deg,#3a3222,#261f12)">🏏</div>
+        <div class="body">
+          <span class="tag">Cricket</span>
+          <h3>Washington Freedom win MLC title</h3>
+          <p class="brief">Washington Freedom chased down the Los Angeles Knight Riders by 6 wickets with 8 balls to spare in the Major League Cricket final at Oakland.</p>
+          <a href="https://www.espncricinfo.com/series/major-league-cricket-2026-1528556" target="_blank" rel="noopener">Scorecard on ESPNcricinfo &rarr;</a>
+        </div>
       </div>
-      <div class="sportcard">
-        <h3>🏈 NFL</h3>
-        <p><strong>Training camps opening:</strong> Champion Seahawks' rookies reported July 17; all 32 teams in by July 28. Storylines: Joe Brady's Bills era, Cowboys' defensive rebuild.</p>
-        <a href="https://www.nfl.com/news/2026-nfl-training-camps-report-dates-locations-announced-for-all-32-teams" target="_blank">Camp report →</a>
+      <div class="card">
+        <div class="thumb" style="background:linear-gradient(135deg,#2a2a3a,#181826)">🏈</div>
+        <div class="body">
+          <span class="tag">NFL</span>
+          <h3>Training camps swing open</h3>
+          <p class="brief">The Cardinals and Panthers report July 22 ahead of the Aug. 6 Hall of Fame Game, with all 32 teams in by July 28. Mahomes&rsquo; and Bo Nix&rsquo;s recoveries top the watch list.</p>
+          <a href="https://www.nfl.com/news/2026-nfl-training-camps-report-dates-locations-announced-for-all-32-teams" target="_blank" rel="noopener">Details on NFL.com &rarr;</a>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- MUSIC -->
   <section>
-    <div class="sec-title"><span class="bar" style="background:var(--music)"></span>Song of the Day · New Metal</div>
-    <div class="music">
-      <div class="disc">🎸</div>
+    <div class="sec-title">Song of the Day</div>
+    <div class="song">
+      <div class="disc">🤘</div>
       <div>
-        <h3>Tarja — "Frisson Noir"</h3>
-        <div class="meta">Symphonic Metal · Released June 12, 2026</div>
-        <p>The former Nightwish vocalist's heaviest solo record yet — orchestral drama meets crushing riffs, with guest turns from Dani Filth, Marko Hietala, Apocalyptica and Chad Smith. Big, cinematic, and firmly not black metal.</p>
-        <a href="https://music.youtube.com/search?q=Tarja+Frisson+Noir" target="_blank">Listen on YouTube Music →</a>
+        <h3>100 Demons &mdash; &ldquo;Embrace the Black Light&rdquo;</h3>
+        <div class="meta">Metalcore &middot; released June 2026</div>
+        <p>The Connecticut hardcore stalwarts&rsquo; first album in 22 years pairs mid-paced hardcore riffs with shredding thrash solos and buzzsaw Swedeath guitar &mdash; a heavy, welcome comeback.</p>
+        <a href="https://music.youtube.com/search?q=100+Demons+Embrace+the+Black+Light" target="_blank" rel="noopener">Listen on YouTube Music &rarr;</a>
       </div>
     </div>
   </section>
 
   <footer>
-    Assembled fresh this morning · Links open in your browser · Have a good one, Satvik.
+    Generated automatically for Satvik &middot; July 19, 2026 &middot; Created by Claude
   </footer>
 </div>
 </body>
