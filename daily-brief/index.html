@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Satvik's Daily Brief</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%A4%96%3C/text%3E%3C/svg%3E">
+<style>
+  :root{
+    --bg:#0f1115; --card:#181b22; --card2:#1e222b; --ink:#e8eaed; --soft:#9aa0a8;
+    --line:#2a2f3a; --accent:#6ea8fe; --tech:#5ad1a4; --ai:#b98cff; --world:#ffb454;
+    --us:#ff7a7a; --india:#ff9f43; --sport:#4dd4c4; --music:#ff5c8a;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.5;padding:0 0 60px}
+  .wrap{max-width:920px;margin:0 auto;padding:0 20px}
+  header{padding:42px 20px 28px;text-align:center;border-bottom:1px solid var(--line);margin-bottom:34px;background:linear-gradient(180deg,#141821,transparent)}
+  header .date{color:var(--soft);font-size:14px;letter-spacing:.14em;text-transform:uppercase}
+  header h1{font-size:38px;font-weight:700;margin-top:8px;letter-spacing:-.5px}
+  header .byline{display:inline-flex;align-items:center;gap:6px;margin-top:10px;padding:4px 12px;border:1px solid #3a2e28;border-radius:20px;background:#20191533;color:#e0a58c;font-size:12px;font-weight:600;letter-spacing:.04em}
+  header .byline svg{display:block}
+  header p{color:var(--soft);margin-top:14px;font-size:15px}
+  section{margin-bottom:38px}
+  .sec-title{display:flex;align-items:center;gap:10px;font-size:13px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--soft);margin-bottom:16px}
+  .sec-title .bar{width:26px;height:3px;border-radius:3px;background:var(--accent)}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column;transition:transform .15s,border-color .15s}
+  .card:hover{transform:translateY(-3px);border-color:#3a4150}
+  .thumb{height:120px;display:flex;align-items:center;justify-content:center;font-size:44px}
+  .card .body{padding:16px 18px 18px}
+  .tag{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:3px 9px;border-radius:20px;margin-bottom:10px}
+  .card h3{font-size:17px;line-height:1.3;margin-bottom:8px}
+  .card p{color:var(--soft);font-size:14px;margin-bottom:12px}
+  .card a{color:var(--accent);text-decoration:none;font-size:13px;font-weight:600}
+  .card a:hover{text-decoration:underline}
+  .full{grid-column:1/-1}
+  .sports{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+  .sportcard{background:var(--card2);border:1px solid var(--line);border-radius:14px;padding:18px}
+  .sportcard h3{font-size:15px;margin-bottom:10px;display:flex;align-items:center;gap:8px}
+  .sportcard p{color:var(--soft);font-size:13.5px;margin-bottom:8px}
+  .sportcard a{color:var(--accent);font-size:12.5px;text-decoration:none;font-weight:600}
+  .music{display:flex;gap:20px;align-items:center;background:linear-gradient(135deg,#241726,#1a1720);border:1px solid #3a2a3a;border-radius:16px;padding:22px 24px}
+  .music .disc{width:88px;height:88px;border-radius:50%;background:radial-gradient(circle at 40% 40%,#ff5c8a,#7a1e3a 70%,#120a10);flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:34px;box-shadow:0 0 0 6px #1a1015}
+  .music h3{font-size:20px;margin-bottom:4px}
+  .music .meta{color:var(--music);font-weight:600;font-size:14px;margin-bottom:8px}
+  .music p{color:var(--soft);font-size:14px;margin-bottom:10px}
+  .music a{color:#ff89ab;text-decoration:none;font-weight:600;font-size:13px}
+  footer{text-align:center;color:var(--soft);font-size:12.5px;padding-top:10px;border-top:1px solid var(--line)}
+  @media(max-width:680px){.grid,.sports{grid-template-columns:1fr}header h1{font-size:30px}.music{flex-direction:column;text-align:center}}
+</style>
+</head>
+<body>
+<header>
+  <div class="date">Sunday · July 19, 2026</div>
+  <h1>Satvik's Daily Brief</h1>
+  <div class="byline">
+    <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+      <g fill="#d97757">
+        <rect x="11" y="1" width="2" height="22" rx="1"/>
+        <rect x="1" y="11" width="22" height="2" rx="1"/>
+        <rect x="11" y="1" width="2" height="22" rx="1" transform="rotate(45 12 12)"/>
+        <rect x="1" y="11" width="22" height="2" rx="1" transform="rotate(45 12 12)"/>
+        <rect x="11" y="1" width="2" height="22" rx="1" transform="rotate(22.5 12 12)"/>
+        <rect x="1" y="11" width="22" height="2" rx="1" transform="rotate(22.5 12 12)"/>
+      </g>
+    </svg>
+    <span>Created by Claude</span>
+  </div>
+  <p>Good morning, Satvik. Here's what's worth knowing today.</p>
+</header>
+
+<div class="wrap">
+
+  <!-- TECH -->
+  <section>
+    <div class="sec-title"><span class="bar" style="background:var(--tech)"></span>Tech · Non-AI</div>
+    <div class="grid">
+      <div class="card">
+        <div class="thumb" style="background:linear-gradient(135deg,#12352b,#0e2620)">🔋</div>
+        <div class="body">
+          <span class="tag" style="background:#12352b;color:var(--tech)">Hardware</span>
+          <h3>Solid-state battery mystery finally cracked</h3>
+          <p>Researchers worked out how soft lithium dendrites crack hard ceramic inside solid-state cells — a breakthrough toward safer, longer-lasting batteries for phones and EVs.</p>
+          <a href="https://www.sciencedaily.com/news/matter_energy/technology/" target="_blank">Read on ScienceDaily →</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="thumb" style="background:linear-gradient(135deg,#12352b,#0e2620)">⌚</div>
+        <div class="body">
+          <span class="tag" style="background:#12352b;color:var(--tech)">Gadgets</span>
+          <h3>The best new gadgets we tested in July</h3>
+          <p>TechRadar's monthly roundup — from Xiaomi's 6mm silicon-carbon power bank to the 12-gram screenless Fitbit Air and the DJI Avata 360 drone.</p>
+          <a href="https://www.techradar.com/home/top-tech-of-the-month-the-best-new-gadgets-weve-tested-for-july-2026" target="_blank">Read on TechRadar →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AI -->
+  <section>
+    <div class="sec-title"><span class="bar" style="background:var(--ai)"></span>Artificial Intelligence</div>
+    <div class="grid">
+      <div class="card">
+        <div class="thumb" style="background:linear-gradient(135deg,#241a35,#1a1428)">🤖</div>
+        <div class="body">
+          <span class="tag" style="background:#241a35;color:var(--ai)">Models</span>
+          <h3>OpenAI broadens GPT-5.6 rollout</h3>
+          <p>Sol, Terra and Luna go wide after extra testing. The industry's tone has shifted from "how big is the model" to "how reliably does it finish real tasks."</p>
+          <a href="https://www.crescendo.ai/news/latest-ai-news-and-updates" target="_blank">Read the roundup →</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="thumb" style="background:linear-gradient(135deg,#241a35,#1a1428)">⚖️</div>
+        <div class="body">
+          <span class="tag" style="background:#241a35;color:var(--ai)">Governance</span>
+          <h3>UN warns of 'catastrophic harm', pushes governance</h3>
+          <p>The UN Global Dialogue on AI Governance met in Geneva as the EU AI Act's phased rollout makes transparency and risk classification legal requirements.</p>
+          <a href="https://news.un.org/en/story/2026/07/1167862" target="_blank">Read on UN News →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORLD -->
+  <section>
+    <div class="sec-title"><span class="bar" style="background:var(--world)"></span>World</div>
+    <div class="grid">
+      <div class="card">
+        <div class="thumb" style="background:linear-gradient(135deg,#3a2c12,#28200e)">🏆</div>
+        <div class="body">
+          <span class="tag" style="background:#3a2c12;color:var(--world)">World Cup</span>
+          <h3>Spain vs Argentina in the World Cup final tonight</h3>
+          <p>Argentina chase back-to-back titles against Spain at MetLife Stadium, New Jersey. England took bronze, beating France 6-4.</p>
+          <a href="https://www.espn.com/soccer/story/_/id/49397314/world-cup-2026-today-live-updates-news-england-spain-argentina-france-july-19" target="_blank">Follow on ESPN →</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="thumb" style="background:linear-gradient(135deg,#3a2c12,#28200e)">🌍</div>
+        <div class="body">
+          <span class="tag" style="background:#3a2c12;color:var(--world)">Middle East</span>
+          <h3>US concludes 8th night of strikes on Iran</h3>
+          <p>Strikes follow an Iranian attack that killed two US soldiers, with a third missing in action — the first US fatalities from Iranian fire since March.</p>
+          <a href="https://www.cbsnews.com/live-updates/iran-war-trump-strait-of-hormuz-attacks-persian-gulf/" target="_blank">Read on CBS News →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- US -->
+  <section>
+    <div class="sec-title"><span class="bar" style="background:var(--us)"></span>United States</div>
+    <div class="grid">
+      <div class="card">
+        <div class="thumb" style="background:linear-gradient(135deg,#3a1616,#280f0f)">🥛</div>
+        <div class="body">
+          <span class="tag" style="background:#3a1616;color:var(--us)">Business</span>
+          <h3>Cyberattack halts Fairlife milk production</h3>
+          <p>A cybersecurity incident forced Coca-Cola to suspend US Fairlife production while an investigation is underway.</p>
+          <a href="https://www.cbsnews.com/" target="_blank">Read on CBS News →</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="thumb" style="background:linear-gradient(135deg,#3a1616,#280f0f)">🌫️</div>
+        <div class="body">
+          <span class="tag" style="background:#3a1616;color:var(--us)">Environment</span>
+          <h3>Wildfire smoke blankets Midwest and East Coast</h3>
+          <p>Heavy smoke from fires in Canada and Minnesota is triggering air-quality alerts across large swaths of the US.</p>
+          <a href="https://www.cbsnews.com/news/wildfires-smoke-millions-exposed-midwest-northeast-us/" target="_blank">Read on CBS News →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INDIA -->
+  <section>
+    <div class="sec-title"><span class="bar" style="background:var(--india)"></span>India</div>
+    <div class="grid">
+      <div class="card full">
+        <div class="thumb" style="background:linear-gradient(135deg,#3a2a10,#2a1e0b)">🏛️</div>
+        <div class="body">
+          <span class="tag" style="background:#3a2a10;color:var(--india)">Politics</span>
+          <h3>Monsoon session of Parliament begins tomorrow</h3>
+          <p>The session runs July 20 to August 13 with 19 sittings scheduled. Separately, the IMD has issued a heavy-rainfall alert for Jammu &amp; Kashmir through July 23.</p>
+          <a href="https://www.aajtak.in/india/news/story/aaj-ki-taza-khabar-19-july-2026-morning-top-news-headlines-ntc-drmt-dskc-2604525-2026-07-19" target="_blank">Read on AajTak →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SPORTS -->
+  <section>
+    <div class="sec-title"><span class="bar" style="background:var(--sport)"></span>Sports Highlights</div>
+    <div class="sports">
+      <div class="sportcard">
+        <h3>⚽ Soccer</h3>
+        <p><strong>World Cup final today:</strong> Spain vs Argentina at MetLife. In the third-place game, England thumped France 6-4 — 4-0 up at half — while Mbappé became the all-time World Cup goal king.</p>
+        <a href="https://www.foxsports.com/soccer/fifa-world-cup/highlights" target="_blank">Highlights →</a>
+      </div>
+      <div class="sportcard">
+        <h3>🏏 Cricket</h3>
+        <p><strong>ENG vs IND, 3rd ODI at Lord's:</strong> England posted a big 387/3, India chasing hard. India took the 1st ODI by 6 wickets (Gill 80, Axar 4-62); England swept the T20Is 4-0.</p>
+        <a href="https://www.cricinfo.com/series/india-in-england-2026-1496488" target="_blank">Scorecard →</a>
+      </div>
+      <div class="sportcard">
+        <h3>🏈 NFL</h3>
+        <p><strong>Training camps opening:</strong> Champion Seahawks' rookies reported July 17; all 32 teams in by July 28. Storylines: Joe Brady's Bills era, Cowboys' defensive rebuild.</p>
+        <a href="https://www.nfl.com/news/2026-nfl-training-camps-report-dates-locations-announced-for-all-32-teams" target="_blank">Camp report →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- MUSIC -->
+  <section>
+    <div class="sec-title"><span class="bar" style="background:var(--music)"></span>Song of the Day · New Metal</div>
+    <div class="music">
+      <div class="disc">🎸</div>
+      <div>
+        <h3>Tarja — "Frisson Noir"</h3>
+        <div class="meta">Symphonic Metal · Released June 12, 2026</div>
+        <p>The former Nightwish vocalist's heaviest solo record yet — orchestral drama meets crushing riffs, with guest turns from Dani Filth, Marko Hietala, Apocalyptica and Chad Smith. Big, cinematic, and firmly not black metal.</p>
+        <a href="https://music.youtube.com/search?q=Tarja+Frisson+Noir" target="_blank">Listen on YouTube Music →</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    Assembled fresh this morning · Links open in your browser · Have a good one, Satvik.
+  </footer>
+</div>
+</body>
+</html>
