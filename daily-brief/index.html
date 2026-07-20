@@ -3,253 +3,241 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Satvik's Daily Brief</title>
 <link rel="icon" href="/favicon.ico">
+<title>Satvik's Daily Brief</title>
 <style>
   :root{
-    --bg:#0d0f14; --panel:#161a22; --panel2:#1c212b; --border:#262c38;
-    --text:#e8ebf0; --muted:#9aa3b2; --accent:#d97757; --accent2:#7aa2ff;
+    --bg:#0d0f13; --panel:#161a21; --panel2:#1c212b; --border:#262c38;
+    --text:#e7e9ee; --muted:#9aa3b2; --accent:#d97757; --link:#f0a084;
   }
-  *{box-sizing:border-box;margin:0;padding:0}
+  *{box-sizing:border-box;}
   body{
-    background:var(--bg);color:var(--text);
+    margin:0; background:var(--bg); color:var(--text);
     font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    line-height:1.55;-webkit-font-smoothing:antialiased;padding:0 20px 60px;
+    line-height:1.55; padding:0 20px 60px;
   }
-  .wrap{max-width:1040px;margin:0 auto}
-  header{text-align:center;padding:52px 0 30px}
-  .datipe{color:var(--muted);font-size:14px;letter-spacing:.06em;text-transform:uppercase}
-  h1{font-size:40px;font-weight:800;margin:10px 0 14px;letter-spacing:-.02em}
-  .pill{
-    display:inline-flex;align-items:center;gap:7px;background:var(--panel2);
-    border:1px solid var(--border);border-radius:999px;padding:6px 14px;
-    font-size:13px;color:var(--muted);font-weight:600
-  }
-  .greet{color:var(--muted);margin-top:16px;font-size:16px}
-  section{margin-top:44px}
-  .sec-title{
-    font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;
-    color:var(--accent);margin-bottom:18px;padding-bottom:10px;border-bottom:1px solid var(--border)
-  }
-  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:18px}
-  .grid3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:18px}
-  .card{
-    background:var(--panel);border:1px solid var(--border);border-radius:14px;
-    overflow:hidden;display:flex;flex-direction:column;transition:border-color .2s
-  }
-  .card:hover{border-color:#3a4252}
-  .thumb{height:92px;display:flex;align-items:center;justify-content:center;font-size:38px}
-  .body{padding:16px 18px 18px;display:flex;flex-direction:column;flex:1}
-  .tag{
-    display:inline-block;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
-    color:var(--accent2);margin-bottom:8px
-  }
-  .card h3{font-size:17px;font-weight:700;line-height:1.35;margin-bottom:8px}
-  .brief{color:var(--muted);font-size:14px;flex:1}
-  .card a,.song a{color:var(--accent);text-decoration:none;font-weight:600;font-size:13px;margin-top:12px;display:inline-block}
-  .card a:hover,.song a:hover{text-decoration:underline}
-  .song{
-    background:linear-gradient(135deg,#1c212b,#241b18);
-    border:1px solid #3a2c24;border-radius:16px;padding:26px 28px;display:flex;gap:22px;align-items:center
-  }
-  .song .disc{
-    width:70px;height:70px;min-width:70px;border-radius:50%;
-    background:radial-gradient(circle at center,#0d0f14 26%,var(--accent) 27%,#8a4632 100%);
-    display:flex;align-items:center;justify-content:center;font-size:26px
-  }
-  .song h3{font-size:20px;font-weight:800;margin-bottom:4px}
-  .song .meta{color:var(--muted);font-size:13px;margin-bottom:8px}
-  .song p{color:var(--text);font-size:14px}
-  footer{text-align:center;color:var(--muted);font-size:12px;margin-top:56px;padding-top:22px;border-top:1px solid var(--border)}
+  .wrap{max-width:1040px; margin:0 auto;}
+  header{text-align:center; padding:48px 0 28px;}
+  .date-line{color:var(--muted); font-size:.9rem; letter-spacing:.04em; text-transform:uppercase;}
+  h1{font-size:2.4rem; margin:10px 0 14px; letter-spacing:-.02em;}
+  .pill-row{display:flex; align-items:center; justify-content:center; gap:8px; margin-bottom:14px;}
+  .pill{display:inline-flex; align-items:center; gap:7px; background:var(--panel2); border:1px solid var(--border);
+    color:var(--muted); font-size:.78rem; padding:5px 12px; border-radius:999px;}
+  .greeting{color:var(--muted); font-size:1.02rem; max-width:640px; margin:0 auto;}
+  section{margin-top:44px;}
+  h2{font-size:1.25rem; margin:0 0 4px; display:flex; align-items:center; gap:9px;}
+  .sec-sub{color:var(--muted); font-size:.85rem; margin:0 0 18px;}
+  .grid{display:grid; grid-template-columns:repeat(2,1fr); gap:16px;}
+  .sports{display:grid; grid-template-columns:repeat(3,1fr); gap:16px;}
+  .card{background:var(--panel); border:1px solid var(--border); border-radius:14px; overflow:hidden;
+    display:flex; flex-direction:column;}
+  .thumb{height:76px; display:flex; align-items:center; justify-content:center; font-size:2rem;}
+  .card-body{padding:14px 16px 16px;}
+  .tag{display:inline-block; font-size:.68rem; letter-spacing:.06em; text-transform:uppercase;
+    color:var(--accent); font-weight:600; margin-bottom:7px;}
+  .card h3{font-size:1.02rem; margin:0 0 7px; line-height:1.35;}
+  .card p{margin:0 0 12px; color:var(--muted); font-size:.9rem;}
+  a.read{color:var(--link); text-decoration:none; font-size:.85rem; font-weight:500;}
+  a.read:hover{text-decoration:underline;}
+  .song{background:linear-gradient(135deg,#1c212b,#241a17); border:1px solid var(--border);
+    border-radius:16px; padding:26px 28px; display:flex; gap:22px; align-items:center;}
+  .song-icon{font-size:3rem;}
+  .song h3{margin:0 0 4px; font-size:1.3rem;}
+  .song .meta{color:var(--accent); font-size:.85rem; font-weight:600; margin-bottom:10px;}
+  .song p{color:var(--muted); margin:0 0 14px;}
+  .song a{display:inline-block; background:var(--accent); color:#1a0f0a; font-weight:600;
+    padding:9px 18px; border-radius:999px; text-decoration:none; font-size:.9rem;}
+  footer{text-align:center; color:var(--muted); font-size:.8rem; margin-top:54px;
+    border-top:1px solid var(--border); padding-top:20px;}
   @media(max-width:680px){
-    .grid2,.grid3{grid-template-columns:1fr}
-    h1{font-size:32px}
-    .song{flex-direction:column;text-align:center}
+    .grid,.sports{grid-template-columns:1fr;}
+    h1{font-size:1.9rem;}
+    .song{flex-direction:column; text-align:center;}
   }
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
-    <div class="datipe">Sunday &middot; July 19, 2026</div>
+    <div class="date-line">Monday &middot; July 20, 2026</div>
     <h1>Satvik's Daily Brief</h1>
-    <span class="pill">
-      <svg width="14" height="14" viewBox="0 0 24 24" fill="#d97757" xmlns="http://www.w3.org/2000/svg">
-        <path d="M12 0l2.35 8.09L22 6l-5.6 5.6L24 14l-8.09-.35L18 22l-6-5.6L6 22l2.09-8.35L0 14l7.6-2.4L2 6l7.65 2.09z"/>
-      </svg>
-      Created by Claude
-    </span>
-    <p class="greet">Good morning, Satvik. Here's what's worth knowing to start the day.</p>
+    <div class="pill-row">
+      <span class="pill">
+        <svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true">
+          <path fill="#d97757" d="M12 1l2.4 7.1L21.5 6l-5.1 5.4 5.6 3.9-6.9.3L12 23l-3.1-7.4-6.9-.3 5.6-3.9L2.5 6l7.1 2.1z"/>
+        </svg>
+        Created by Claude
+      </span>
+    </div>
+    <p class="greeting">Good morning, Satvik. Here&rsquo;s your world in one skim &mdash; the tech, the news, the scores, and a track to start the day.</p>
   </header>
 
   <section>
-    <div class="sec-title">Tech &mdash; Non-AI</div>
-    <div class="grid2">
-      <div class="card">
-        <div class="thumb" style="background:linear-gradient(135deg,#2a3550,#1a2030)">🎧</div>
-        <div class="body">
+    <h2>&#128421;&#65039; Tech (Non-AI)</h2>
+    <p class="sec-sub">Hardware, gadgets and science worth knowing</p>
+    <div class="grid">
+      <article class="card">
+        <div class="thumb" style="background:linear-gradient(135deg,#243447,#1a2733)">&#127911;</div>
+        <div class="card-body">
           <span class="tag">Audio</span>
-          <h3>Sony unveils 1000X &lsquo;The ColleXion&rsquo; flagship headphones</h3>
-          <p class="brief">Sony&rsquo;s new top-tier noise-canceling headphones lean premium, swapping in soft vegan leather and metal accents over the outgoing model&rsquo;s plastics.</p>
-          <a href="https://www.techradar.com/home/top-tech-of-the-month-the-best-new-gadgets-weve-tested-for-july-2026" target="_blank" rel="noopener">Read on TechRadar &rarr;</a>
+          <h3>Sony marks a decade of noise-canceling with the 1000X &ldquo;The ColleXion&rdquo;</h3>
+          <p>Sony&rsquo;s new flagship headphones celebrate the 10-year anniversary of the 1000X Series &mdash; a luxe take on the 1000XM6 with vegan leather and metal accents.</p>
+          <a class="read" href="https://www.gearpatrol.com/audio/best-tech-audio-hi-fi-releases-2026-july-week-1/" target="_blank" rel="noopener">Read more &rarr;</a>
         </div>
-      </div>
-      <div class="card">
-        <div class="thumb" style="background:linear-gradient(135deg,#3a2f22,#241a12)">🔋</div>
-        <div class="body">
-          <span class="tag">Gadgets</span>
-          <h3>Xiaomi&rsquo;s 6mm UltraThin magnetic power bank</h3>
-          <p class="brief">At just 6mm thick and 98 grams, Xiaomi&rsquo;s new MagSafe-style pack still squeezes in 5,000 mAh thanks to a dense silicon-carbon battery (16% silicon).</p>
-          <a href="https://www.yankodesign.com/2026/07/07/the-8-best-tech-gadgets-of-july-2026/" target="_blank" rel="noopener">Read on Yanko Design &rarr;</a>
+      </article>
+      <article class="card">
+        <div class="thumb" style="background:linear-gradient(135deg,#2a2440,#1d2233)">&#129516;</div>
+        <div class="card-body">
+          <span class="tag">Science</span>
+          <h3>Harvard builds a silicon chip that writes DNA using electricity and water</h3>
+          <p>A new chip synthesizes DNA electrochemically &mdash; a potential leap for cheaper, faster gene fabrication without traditional chemistry.</p>
+          <a class="read" href="https://scitechdaily.com/" target="_blank" rel="noopener">Read more &rarr;</a>
         </div>
-      </div>
+      </article>
     </div>
   </section>
 
   <section>
-    <div class="sec-title">Artificial Intelligence</div>
-    <div class="grid2">
-      <div class="card">
-        <div class="thumb" style="background:linear-gradient(135deg,#22303a,#141f26)">🥇</div>
-        <div class="body">
+    <h2>&#129504; Artificial Intelligence</h2>
+    <p class="sec-sub">The AI beat, condensed</p>
+    <div class="grid">
+      <article class="card">
+        <div class="thumb" style="background:linear-gradient(135deg,#1f3a34,#16241f)">&#129302;</div>
+        <div class="card-body">
           <span class="tag">Models</span>
-          <h3>Moonshot&rsquo;s Kimi K3 tops the Frontend Code Arena</h3>
-          <p class="brief">Kimi K3 hit #1 on Arena.ai&rsquo;s Frontend Code Arena with a 76% pairwise win rate, edging out Claude Fable 5. Open weights are promised by July 27.</p>
-          <a href="https://www.buildfastwithai.com/blogs/ai-news-today-july-18-2026" target="_blank" rel="noopener">Read the roundup &rarr;</a>
+          <h3>GPT-5.6 &ldquo;Sol&rdquo; and Grok 4.5 land as the year of AI agents accelerates</h3>
+          <p>July&rsquo;s releases push further into multimodal, tool-using agents that plan and act with minimal human input &mdash; 2026&rsquo;s defining shift.</p>
+          <a class="read" href="https://aitoolsrecap.com/Blog/AINewsJuly2026.aspx" target="_blank" rel="noopener">Read more &rarr;</a>
         </div>
-      </div>
-      <div class="card">
-        <div class="thumb" style="background:linear-gradient(135deg,#33223a,#1f1426)">⏳</div>
-        <div class="body">
-          <span class="tag">Big Tech</span>
-          <h3>Google reportedly delays Gemini 3.5 Pro again</h3>
-          <p class="brief">The rebuilt model fell short on coding and complex reasoning in testing, pushing its launch back once more. Alphabet shares slipped about 4% on the news.</p>
-          <a href="https://www.buildfastwithai.com/blogs/ai-news-today-july-18-2026" target="_blank" rel="noopener">Read the roundup &rarr;</a>
+      </article>
+      <article class="card">
+        <div class="thumb" style="background:linear-gradient(135deg,#3a2f1f,#241f16)">&#127981;</div>
+        <div class="card-body">
+          <span class="tag">Chips</span>
+          <h3>TSMC posts record quarter, pours another $100B into Arizona</h3>
+          <p>Q2 net income jumped 77% year-on-year as AI chips hit 66% of revenue; full-year growth guidance was raised past 40%.</p>
+          <a class="read" href="https://www.artificialintelligence-news.com/" target="_blank" rel="noopener">Read more &rarr;</a>
         </div>
-      </div>
+      </article>
     </div>
   </section>
 
   <section>
-    <div class="sec-title">World</div>
-    <div class="grid2">
-      <div class="card">
-        <div class="thumb" style="background:linear-gradient(135deg,#3a2222,#261414)">🌍</div>
-        <div class="body">
+    <h2>&#127758; World</h2>
+    <p class="sec-sub">What&rsquo;s moving beyond the border</p>
+    <div class="grid">
+      <article class="card">
+        <div class="thumb" style="background:linear-gradient(135deg,#3a2226,#241618)">&#9888;&#65039;</div>
+        <div class="card-body">
           <span class="tag">Middle East</span>
-          <h3>U.S. concludes 8th night of strikes on Iran</h3>
-          <p class="brief">The latest round followed an Iranian attack that killed two U.S. soldiers, with a third reported missing. Tehran has suspended an agreement with Washington.</p>
-          <a href="https://www.cbsnews.com/live-updates/iran-war-trump-strait-of-hormuz-attacks-persian-gulf/" target="_blank" rel="noopener">Read on CBS News &rarr;</a>
+          <h3>US strikes on Iran enter a second week</h3>
+          <p>A US service member was killed in Iraq as the conflict widened, with Tehran claiming a fresh wave of missile fire in retaliation.</p>
+          <a class="read" href="https://www.cbsnews.com/live-updates/iran-war-trump-strait-of-hormuz-attacks-persian-gulf/" target="_blank" rel="noopener">Read more &rarr;</a>
         </div>
-      </div>
-      <div class="card">
-        <div class="thumb" style="background:linear-gradient(135deg,#22343a,#142226)">🏦</div>
-        <div class="body">
-          <span class="tag">Economy</span>
-          <h3>Libya links its banks to China&rsquo;s payment system</h3>
-          <p class="brief">Libya agreed to connect its commercial banks to China&rsquo;s cross-border payment and settlement network, a move aimed at reducing reliance on the U.S. dollar.</p>
-          <a href="https://www.aa.com.tr/en/world/morning-briefing-july-19-2026/4002572" target="_blank" rel="noopener">Read on AA &rarr;</a>
+      </article>
+      <article class="card">
+        <div class="thumb" style="background:linear-gradient(135deg,#3a3320,#242016)">&#128293;</div>
+        <div class="card-body">
+          <span class="tag">Spain</span>
+          <h3>Wildfire north of Madrid burns 13,000 hectares, forces evacuations</h3>
+          <p>Around 700 residents fled as crews battled the blaze; heavy wildfire smoke also blanketed swaths of the US Midwest and East Coast.</p>
+          <a class="read" href="https://www.cbsnews.com/news/wildfires-smoke-millions-exposed-midwest-northeast-us/" target="_blank" rel="noopener">Read more &rarr;</a>
         </div>
-      </div>
+      </article>
     </div>
   </section>
 
   <section>
-    <div class="sec-title">United States</div>
-    <div class="grid2">
-      <div class="card">
-        <div class="thumb" style="background:linear-gradient(135deg,#2a2a3a,#181826)">⚖️</div>
-        <div class="body">
-          <span class="tag">Courts</span>
-          <h3>Andrew Tate and brother taken into custody</h3>
-          <p class="brief">The Tate brothers were detained on a sealed warrant as British prosecutors seek their extradition on rape and trafficking charges.</p>
-          <a href="https://www.cbsnews.com/" target="_blank" rel="noopener">Read on CBS News &rarr;</a>
+    <h2>&#127482;&#127480; United States</h2>
+    <p class="sec-sub">The home front</p>
+    <div class="grid">
+      <article class="card">
+        <div class="thumb" style="background:linear-gradient(135deg,#22314a,#161f2e)">&#127786;&#65039;</div>
+        <div class="card-body">
+          <span class="tag">Weather</span>
+          <h3>Tropical Depression Two set to become Tropical Storm Bertha</h3>
+          <p>Forecasters expected the system to strengthen Monday as heavy rain targeted the Southeast US.</p>
+          <a class="read" href="https://www.golocalprov.com/news/5-big-news-stories-overnight-monday-july-20-2026" target="_blank" rel="noopener">Read more &rarr;</a>
         </div>
-      </div>
-      <div class="card">
-        <div class="thumb" style="background:linear-gradient(135deg,#3a3222,#261f12)">🌫️</div>
-        <div class="body">
-          <span class="tag">Environment</span>
-          <h3>Wildfire smoke pushes air quality to record lows</h3>
-          <p class="brief">Heavy smoke from fires in Canada and Minnesota blanketed the Midwest and East Coast, sending air quality indexes to record levels for millions.</p>
-          <a href="https://www.cbsnews.com/news/wildfires-smoke-millions-exposed-midwest-northeast-us/" target="_blank" rel="noopener">Read on CBS News &rarr;</a>
+      </article>
+      <article class="card">
+        <div class="thumb" style="background:linear-gradient(135deg,#2c2440,#1c1830)">&#128118;</div>
+        <div class="card-body">
+          <span class="tag">Politics</span>
+          <h3>JD and Usha Vance welcome their fourth child</h3>
+          <p>The Vice President and Second Lady announced the birth of a baby boy named Alec Neel Vance.</p>
+          <a class="read" href="https://www.foxnews.com/politics/jd-vance-wife-usha-welcome-fourth-child-reveal-baby-boys-name" target="_blank" rel="noopener">Read more &rarr;</a>
         </div>
-      </div>
+      </article>
     </div>
   </section>
 
   <section>
-    <div class="sec-title">India</div>
-    <div class="grid2">
-      <div class="card">
-        <div class="thumb" style="background:linear-gradient(135deg,#223a2a,#14261a)">🏔️</div>
-        <div class="body">
-          <span class="tag">National</span>
-          <h3>Amarnath and Vaishno Devi yatras suspended</h3>
-          <p class="brief">Both pilgrimages were temporarily halted from July 19 as authorities cited an inclement weather forecast across the region.</p>
-          <a href="https://theindiamoves.com/story/top-11-news-stories-from-india-for-july-19-2026" target="_blank" rel="noopener">Read on The India Moves &rarr;</a>
+    <h2>&#127470;&#127475; India</h2>
+    <p class="sec-sub">From home</p>
+    <div class="grid">
+      <article class="card">
+        <div class="thumb" style="background:linear-gradient(135deg,#3a2f1a,#241d13)">&#9889;</div>
+        <div class="card-body">
+          <span class="tag">Energy</span>
+          <h3>India commissions its deepest geothermal wells in Ladakh&rsquo;s Puga Valley</h3>
+          <p>A milestone for the country&rsquo;s clean-energy push, as Parliament&rsquo;s monsoon session opens in Delhi under heightened security.</p>
+          <a class="read" href="https://www.mahendras.org/blogs/current-affairs-20-july-2026" target="_blank" rel="noopener">Read more &rarr;</a>
         </div>
-      </div>
-      <div class="card">
-        <div class="thumb" style="background:linear-gradient(135deg,#2a223a,#1a1426)">🛰️</div>
-        <div class="body">
-          <span class="tag">Space</span>
-          <h3>ISRO says next satellite batch nearly ready</h3>
-          <p class="brief">Chairman V. Narayanan said two satellites are fully built and five to six others are in the final phase of integration.</p>
-          <a href="https://www.business-standard.com/india-news" target="_blank" rel="noopener">Read on Business Standard &rarr;</a>
-        </div>
-      </div>
+      </article>
     </div>
   </section>
 
   <section>
-    <div class="sec-title">Sports Highlights</div>
-    <div class="grid3">
-      <div class="card">
-        <div class="thumb" style="background:linear-gradient(135deg,#22343a,#142226)">⚽</div>
-        <div class="body">
+    <h2>&#127942; Sports Highlights</h2>
+    <p class="sec-sub">Soccer &middot; Cricket &middot; NFL</p>
+    <div class="sports">
+      <article class="card">
+        <div class="thumb" style="background:linear-gradient(135deg,#1f3a24,#152417)">&#9917;</div>
+        <div class="card-body">
           <span class="tag">Soccer</span>
-          <h3>World Cup final tonight</h3>
-          <p class="brief">Argentina meet Spain at MetLife Stadium tonight, Messi vs. Yamal, with Argentina chasing back-to-back titles. Earlier, England beat France 6&ndash;4 in a wild third-place playoff.</p>
-          <a href="https://www.espn.com/soccer/story/_/id/49397314/world-cup-2026-today-live-updates-news-england-spain-argentina-france-july-19" target="_blank" rel="noopener">Live updates on ESPN &rarr;</a>
+          <h3>Spain win the World Cup</h3>
+          <p>Spain beat Argentina 1-0 in the 2026 final at MetLife Stadium, Ferran Torres striking in extra time (106&rsquo;) off a Nico Williams assist. It&rsquo;s La Roja&rsquo;s second title; Argentina became the first side to register zero shots in 90 minutes of a World Cup final.</p>
+          <a class="read" href="https://www.espn.com/soccer/match/_/gameId/760517/argentina-spain" target="_blank" rel="noopener">Highlights &rarr;</a>
         </div>
-      </div>
-      <div class="card">
-        <div class="thumb" style="background:linear-gradient(135deg,#3a3222,#261f12)">🏏</div>
-        <div class="body">
+      </article>
+      <article class="card">
+        <div class="thumb" style="background:linear-gradient(135deg,#3a3320,#242016)">&#127951;</div>
+        <div class="card-body">
           <span class="tag">Cricket</span>
-          <h3>Washington Freedom win MLC title</h3>
-          <p class="brief">Washington Freedom chased down the Los Angeles Knight Riders by 6 wickets with 8 balls to spare in the Major League Cricket final at Oakland.</p>
-          <a href="https://www.espncricinfo.com/series/major-league-cricket-2026-1528556" target="_blank" rel="noopener">Scorecard on ESPNcricinfo &rarr;</a>
+          <h3>India vs England ODIs</h3>
+          <p>India took the opener at Birmingham by 6 wickets (Axar Patel 57* and 4/62), before England levelled at Cardiff by 4 wickets behind Joe Root&rsquo;s 99*. The series concluded with the 3rd ODI at Lord&rsquo;s on July 19.</p>
+          <a class="read" href="https://www.cricinfo.com/series/india-in-england-2026-1496488/england-vs-india-3rd-odi-1496581/full-scorecard" target="_blank" rel="noopener">Scorecard &rarr;</a>
         </div>
-      </div>
-      <div class="card">
-        <div class="thumb" style="background:linear-gradient(135deg,#2a2a3a,#181826)">🏈</div>
-        <div class="body">
+      </article>
+      <article class="card">
+        <div class="thumb" style="background:linear-gradient(135deg,#2a2440,#1b1830)">&#127944;</div>
+        <div class="card-body">
           <span class="tag">NFL</span>
-          <h3>Training camps swing open</h3>
-          <p class="brief">The Cardinals and Panthers report July 22 ahead of the Aug. 6 Hall of Fame Game, with all 32 teams in by July 28. Mahomes&rsquo; and Bo Nix&rsquo;s recoveries top the watch list.</p>
-          <a href="https://www.nfl.com/news/2026-nfl-training-camps-report-dates-locations-announced-for-all-32-teams" target="_blank" rel="noopener">Details on NFL.com &rarr;</a>
+          <h3>Training camps open</h3>
+          <p>Cardinals and Panthers veterans report July 22 ahead of the Aug. 6 Hall of Fame Game, with all 32 teams in by July 28. Watch Mahomes&rsquo; readiness in KC and the 49ers&rsquo; returns of Bosa, Kittle and Warner.</p>
+          <a class="read" href="https://www.nfl.com/news/2026-nfl-training-camps-report-dates-locations-announced-for-all-32-teams" target="_blank" rel="noopener">Details &rarr;</a>
         </div>
-      </div>
+      </article>
     </div>
   </section>
 
   <section>
-    <div class="sec-title">Song of the Day</div>
+    <h2>&#127925; Song of the Day</h2>
+    <p class="sec-sub">A fresh metal pick</p>
     <div class="song">
-      <div class="disc">🤘</div>
+      <div class="song-icon">&#129686;</div>
       <div>
-        <h3>100 Demons &mdash; &ldquo;Embrace the Black Light&rdquo;</h3>
-        <div class="meta">Metalcore &middot; released June 2026</div>
-        <p>The Connecticut hardcore stalwarts&rsquo; first album in 22 years pairs mid-paced hardcore riffs with shredding thrash solos and buzzsaw Swedeath guitar &mdash; a heavy, welcome comeback.</p>
-        <a href="https://music.youtube.com/search?q=100+Demons+Embrace+the+Black+Light" target="_blank" rel="noopener">Listen on YouTube Music &rarr;</a>
+        <h3>Converge &mdash; &ldquo;Hum of Hurt&rdquo;</h3>
+        <div class="meta">Metalcore / Mathcore &middot; Released June 2026</div>
+        <p>Pulled from the same sessions as their February record but taken somewhere darker &mdash; slower, doom-tinged and conceptually anchored to &ldquo;The Hum.&rdquo; Vintage Converge dread with a heavier low end.</p>
+        <a href="https://music.youtube.com/search?q=Converge+Hum+of+Hurt" target="_blank" rel="noopener">Play on YouTube Music &rarr;</a>
       </div>
     </div>
   </section>
 
   <footer>
-    Generated automatically for Satvik &middot; July 19, 2026 &middot; Created by Claude
+    Assembled fresh for Monday, July 20, 2026 &middot; Created by Claude
   </footer>
 </div>
 </body>
